@@ -1,0 +1,57 @@
+---
+title: "EYH Demo"
+author: "Hao Ye"
+date: "2/7/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+// basic description of R markdown
+
+```{r}
+1 + 2 * 3^4
+```
+
+## Read in data
+
+```{r}
+library(gapminder)
+head(gapminder)
+```
+
+## Simple Plot
+
+```{r}
+library(ggplot2)
+
+recent_data <- gapminder[gapminder$year == 2007,]
+
+ggplot(recent_data, 
+       aes(x = gdpPercap, y = lifeExp)) + 
+    geom_point() + 
+    theme_bw()
+```
+
+
+```{r}
+ggplot(recent_data, 
+       aes(x = continent, y = lifeExp)) + 
+    geom_bar(stat = "summary", fun.y = "mean") + 
+    theme_bw()
+```
+
+
+```{r}
+ggplot(recent_data, 
+       aes(x = continent, y = lifeExp)) + 
+    geom_boxplot() + 
+    theme_bw()
+```
+
+## Including Plots
+
