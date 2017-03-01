@@ -4,7 +4,7 @@
 
 ## Presenters
 
-Lynn Waterhouse ()
+Lynn Waterhouse (https://github.com/WaterLynn)
 
 Jessica Carriere-Garwood (https://github.com/JessCG)
 
@@ -26,36 +26,40 @@ The specific aims of the workshop are to train students in the following tasks:
 
 ## Schedule of Activities
 
-* Introductions by workshop presenters and students - name and icebreaker fact.
-* Logistics of the workshop - using post-it notes to ask for help from assistant presenters.
-* Overview of workshop objectives.
-* Description of the RStudio software and scripting interface.
-    + Students follow along and open RStudio.
-* Presenters demo the creation of R markdown files.
-    + Students open the R markdown template file.
-    + Students fill out the header with their name and a title.
-* Explanation of R code chunks.
-    + Students execute sample code chunks and view output.
-* Load sample dataset into R
-    + Students execute the provided code chunk to load in the data from a file.
-* View sample dataset to see format
-    + Students type in and run code to produce a summary of the data set.
-* Make some basic plots using `ggplot2`
-    + As part of this have them install and load ‘ggplot2’ (concept of libraries)
-    + Students type and run code to produce a basic scatter plot.
-    + Students type and run code to produce a basic bar plot.
-    + If time, students type and run code to produce a basic box plot.
-* Free time (give some ideas of other visualizations to be done)
+* Introduce presenters (what we do, fun facts?)
+* Overview of workshop objectives and logistics
+    + Split girls into pairs on computers
+    + Signaling if they have questions or need assistance using post-it
+* Activity 1 - do basic computations
+    + Introduce the RStudio interface and open the R markdown demo file
+    + Students fill out basic info
+    + Students learn how to execute code and view output
+    + Students try adding their own calculations
+* Activity 2 - examine real datasets
+    + Introduce loading datasets into R and examining them
+    + Students repeat for sample datasets
+    + Students compute summary statistics for datasets
+* Activity 3 - make plots and visualizations
+    + Introduce simple plots using `ggplot2`
+    + Students learn about extending functionality by loading packages
+    + Students produce basic scatterplots and barplots from the data
+* Activity 4 - create reports
+    + Students learn about how R markdown produces a final report
+    + Students can customize with title and other information
+* Free time / challenge activities
     + students try making their own novel plots
         - plotting different variables
         - splitting data points or coloring data points by other variables
         - producing different types of plots (give sample visual gallery?)
-* Knit final document into an HTML report
-    + students do the same
-* Provide link to online repository (where HTML reports will be deposited)
-    + check if students are ok with submitting their reports (part of feedback - see next bullet point)
-* Receive anonymous feedback from students
+* Closing
+    + provide link to online repository (for more info and where final reports will be deposited)
+    + ask students if they would like to submit reports
+    + solicit feedback from students
 
 ## Acknowledgments
 
 We would like to thank Ali Freibott, Sue Lowery, Jenny Prairie, and Darcy Taniguchi for their helpful input on this event.
+
+## Resources
+
+{links to software downloads and other tutorials}

@@ -5,53 +5,155 @@ date: "2/7/2017"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Basic Computations in R
 
-## Intro
+We start by demonstrating how to do some basic computations in R.
 
-// basic description of R markdown
+## Example 1 (basic arithmetic)
+
+You may notice that the "code chunk" looks a little different. It begins with 3 copies of the ` symbol and has a gray background. These symbols help to differentiate computer code from normal text.
+
+We can type code in this part of the file and have the computer execute it. Begin by typing "1 + 2" into the code chunk. Then click on the green triangle to run the code and see the output.
 
 ```{r}
-1 + 2 * 3^4
+1 + 2
 ```
 
-## Read in data
+## Example 2 (variable assignment)
+
+If we were baking a pie, we would usually prepare the crust and filling separately and then combine. Similarly, if we had a complex set of instructions for the computer, we might save results and combine them later.
+
+Here, we can use the "<-" symbol to assign our results to variables that we can use later. The first line of the following code chunk saves the output of "10 * 10" into a variable named "a".
+
+Try saving the output of "3 ^ 5" into a variable named "b".
+
+```{r}
+a <- 10 * 10
+b <- 3 ^ 5
+```
+
+After we run the code, we can use the variables "a" and "b" to refer to those saved results:
+
+```{r}
+a - b
+
+a * a + b
+
+sqrt((a + b) / 7)
+```
+
+# Loading and Viewing Data
+
+## Read in raw csv data (Thanksgiving Dinner)
+
+We can load in large amounts of data in R by reading in some files directly. Here, the file is the result of a survey about Thanksgiving dinner in csv format (csv stands for comma-separated-values).
+
+```{r}
+thanksgiving_dinner <- read.csv("thanksgiving-2015-poll-data.csv")
+```
+
+We can look at the entire dataset by simply evaluating the object as its own line of code:
+
+```{r, eval = FALSE}
+thanksgiving_dinner
+```
+
+Or portions of the dataset, such as the first 5 rows (but all 65 columns):
+
+```{r}
+thanksgiving_dinner[1:5, ]
+```
+
+Or the first 5 columns (but all 1058 rows):
+
+```{r, eval = FALSE}
+thanksgiving_dinner[, 1:5]
+```
+
+Or only the first 5 rows and first 5 columns:
+
+```{r}
+thanksgiving_dinner[1:5, 1:5]
+```
+
+There are convenient functions (code commands) for viewing datasets:
+
+```{r, eval = FALSE}
+summary(thanksgiving_dinner)
+```
+
+## Read in R data object (Star Wars characters)
+
+Survey results from 1000 people about their rating of different characters. Answers are on a 5-point scale from "Very unfavorably" to "Very favorably", with some blanks.
+
+```{r}
+SW_characters <- readRDS("SW_character_ratings.RDS")
+summary(SW_characters)
+```
+
+## Load data from package (Gapminder)
+
+Some datasets are part of packages, and can be loaded into R directly
 
 ```{r}
 library(gapminder)
 head(gapminder)
 ```
 
-## Simple Plot
+# Make Plots
+
+## Basic scatterplot (Gapminder)
+
+First, load the ggplot2 package:
 
 ```{r}
 library(ggplot2)
+```
 
-recent_data <- gapminder[gapminder$year == 2007,]
+Then, restrict the data to plot:
 
-ggplot(recent_data, 
+```{r}
+gapminder_2007 <- gapminder[gapminder$year == 2007,] 
+```
+
+Now make a plot. Notice where we set the variables to be plotted on the x-axis and the y-axis, as well as the type of plot.
+
+```{r}
+ggplot(gapminder_2007, 
        aes(x = gdpPercap, y = lifeExp)) + 
     geom_point() + 
     theme_bw()
 ```
 
-
+Try changing one of the axes variables to be "pop" (population). Is there still a clear pattern?
+.
 ```{r}
-ggplot(recent_data, 
-       aes(x = continent, y = lifeExp)) + 
-    geom_bar(stat = "summary", fun.y = "mean") + 
+ggplot(gapminder_2007, 
+       aes(x = pop, y = lifeExp)) + 
+    geom_point() + 
     theme_bw()
 ```
 
+## Basic barplot (Star Wars)
 
 ```{r}
-ggplot(recent_data, 
-       aes(x = continent, y = lifeExp)) + 
-    geom_boxplot() + 
-    theme_bw()
+ggplot(SW_characters, 
+            aes(x = character, y = n, group = rating, fill = rating)) + 
+                geom_bar(stat = "identity") + 
+    theme_bw() + 
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0))
 ```
 
-## Including Plots
+Which character has the most "very unfavorable" ratings?
+What about "very unfavorable" and "somewhat unfavorable"?
+What about favorable ratings?
+
+## Other plots??
+
+
+# Generate Report
+
+The specific kind of file we used is known as R markdown, which allows us to create reports easily. You can try this know by clicking on the "Knit" button above.
+
+
 

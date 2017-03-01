@@ -1,0 +1,69 @@
+---
+title: "data_processing"
+author: "Hao Ye"
+date: "February 28, 2017"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(stringr)
+
+SW_survey <- read.csv("StarWars.csv")
+
+# identify questions about characters
+char_names <- str_match(names(SW_survey), "How.do.you.view..([A-Za-z.0-9]+).")
+
+# subset data
+idx <- which(!is.na(char_names[, 1]))
+char_ratings <- SW_survey[, idx]
+names(char_ratings) <- char_names[idx, 2]
+char_ratings <- data.frame(id = SW_survey$ID, char_ratings)
+
+# convert to long
+survey_long <- tidyr::gather(char_ratings, character, 
+                             rating, 2:ncol(char_ratings))
+
+# fix ratings
+survey_long$rating[survey_long$rating == "Neither favorably nor unfavorably (neutral)"] <- "Neutral"
+survey_long$rating[survey_long$rating == ""] <- "Unfamiliar (N/A)"
+
+# convert to factor
+survey_long$rating <- factor(survey_long$rating, 
+                             levels = rev(c("Very unfavorably", 
+                                        "Somewhat unfavorably", 
+                                        "Neutral", 
+                                        "Somewhat favorably", 
+                                        "Very favorably", 
+                                        "Unfamiliar (N/A)")))
+
+# rename factor levels
+levels(survey_long$rating)[levels(survey_long$rating) == "Very unfavorably"] <- "1 - Very unfavorably"
+levels(survey_long$rating)[levels(survey_long$rating) == "Somewhat unfavorably"] <- "2 - Somewhat unfavorably"
+levels(survey_long$rating)[levels(survey_long$rating) == "Neutral"] <- "3 - Neutral"
+levels(survey_long$rating)[levels(survey_long$rating) == "Somewhat favorably"] <- "4 - Somewhat favorably"
+levels(survey_long$rating)[levels(survey_long$rating) == "Very favorably"] <- "5 - Very favorably"
+levels(survey_long$rating)[levels(survey_long$rating) == "Unfamiliar (N/A)"] <- "NA - Unfamiliar"
+
+# generate frequency table
+ratings_table <- survey_long %>%
+    group_by(character, rating) %>%
+    summarize(n = n())
+
+ratings_table$character <- factor(gsub("\\.", " ", ratings_table$character))
+
+saveRDS(ratings_table, file = "SW_character_ratings.RDS")
+```
+
+```{r}
+library(ggplot2)
+
+SW_characters <- readRDS("SW_character_ratings.RDS")
+p <- ggplot(SW_characters, 
+            aes(x = character, y = n, group = rating, fill = rating)) + 
+                geom_bar(stat = "identity") + 
+    theme_bw() + 
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0))
+print(p)
+```
+
