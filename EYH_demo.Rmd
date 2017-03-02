@@ -25,11 +25,13 @@ If we were baking a pie, we would usually prepare the crust and filling separate
 
 Here, we can use the "<-" symbol to assign our results to variables that we can use later. The first line of the following code chunk saves the output of "10 * 10" into a variable named "a".
 
-Try saving the output of "3 ^ 5" into a variable named "b".
+Try saving the output of "3 ^ 5" into a variable named "b". 
+
+Do you notice the variables "a" and "b" appearing in your environment? Try typing "a" and "b" in the console.
 
 ```{r}
 a <- 10 * 10
-b <- 3 ^ 5
+b <- 3 ^ 5  # should we remove this line as it is the answer?
 ```
 
 After we run the code, we can use the variables "a" and "b" to refer to those saved results:
