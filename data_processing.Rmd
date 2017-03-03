@@ -75,14 +75,14 @@ pie_data <- thanksgiving_dinner[,20:30]
 names(pie_data) <- NULL
 pie_data <- do.call(c, lapply(pie_data, as.character))
 pie_data <- pie_data[pie_data != ""]
-#pie_summary <- table(pie_data)
+pie_data <- data.frame(pie_type = pie_data)
 write.csv(pie_data, file = "thanksgiving-2015-pie-data.csv", row.names = FALSE)
 ```
 
 ```{r}
-thanksgiving_pies <- read.csv("thanksgiving-2015-pie-summary.csv")
+thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
 ggplot(thanksgiving_pies, 
-       aes(x = "", fill = pie_data)) + 
+       aes(x = "", fill = pie_type)) + 
     geom_bar() + 
     theme_bw() + 
     coord_polar("y")

@@ -156,7 +156,7 @@ What about favorable ratings?
 ```{r}
 thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
 ggplot(thanksgiving_pies, 
-       aes(x = "", fill = pie_data)) + 
+       aes(x = "", fill = pie_type)) + 
     geom_bar() + 
     theme_bw() + 
     coord_polar("y")
