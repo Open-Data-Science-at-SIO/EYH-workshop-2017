@@ -81,7 +81,8 @@ thanksgiving_dinner[1:5, 1:5]
 There are convenient functions (code commands) for viewing datasets:
 
 ```{r, eval = FALSE}
-summary(thanksgiving_dinner)
+thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
+summary(thanksgiving_pies)
 ```
 
 ## Read in R data object (Star Wars characters)
@@ -149,6 +150,17 @@ ggplot(SW_characters,
 Which character has the most "very unfavorable" ratings?
 What about "very unfavorable" and "somewhat unfavorable"?
 What about favorable ratings?
+
+## Basic pie chart (Thanksgiving pies)
+
+```{r}
+thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
+ggplot(thanksgiving_pies, 
+       aes(x = "", fill = pie_data)) + 
+    geom_bar() + 
+    theme_bw() + 
+    coord_polar("y")
+```
 
 ## Other plots??
 
