@@ -8,7 +8,10 @@ output: html_document
 ```{r}
 library(dplyr)
 library(stringr)
+library(ggplot2)
+```
 
+```{r}
 SW_survey <- read.csv("StarWars.csv")
 
 # identify questions about characters
@@ -46,9 +49,9 @@ levels(survey_long$rating)[levels(survey_long$rating) == "Very favorably"] <- "5
 levels(survey_long$rating)[levels(survey_long$rating) == "Unfamiliar (N/A)"] <- "NA - Unfamiliar"
 
 # generate frequency table
-ratings_table <- survey_long %>%
-    group_by(character, rating) %>%
-    summarize(n = n())
+ratings_table <- survey_long #%>%
+#     group_by(character, rating) %>%
+#     summarize(n = n())
 
 ratings_table$character <- factor(gsub("\\.", " ", ratings_table$character))
 
@@ -56,12 +59,10 @@ saveRDS(ratings_table, file = "SW_character_ratings.RDS")
 ```
 
 ```{r}
-library(ggplot2)
-
-SW_characters <- readRDS("SW_character_ratings.RDS")
-p <- ggplot(SW_characters, 
-            aes(x = character, y = n, group = rating, fill = rating)) + 
-                geom_bar(stat = "identity") + 
+SW_character_ratings <- readRDS("SW_character_ratings.RDS")
+p <- ggplot(SW_character_ratings, 
+            aes(x = character, fill = rating)) + 
+    geom_bar() + 
     theme_bw() + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0))
 print(p)
@@ -87,4 +88,38 @@ ggplot(thanksgiving_pies,
     theme_bw() + 
     coord_polar("y")
 ```
+
+```{r}
+co2_data <- read.table("co2_mm_mlo.txt", skip = 72)
+co2_data <- co2_data[, -NCOL(co2_data)]
+names(co2_data) <- c("year", "month", "decimal_date", "co2_average", "co2_interpolated", "co2_trend")
+
+temp_data <- read.csv("GLB.Ts+dSST.csv", skip = 1)[, 1:13]
+temp_data <- temp_data[temp_data$Year != 2017,]
+temp_data <- tidyr::gather(temp_data, month, temperature, Jan:Dec)
+temp_data$month <- as.numeric(factor(temp_data$month, 
+                                        levels = c("Jan", "Feb", "Mar", "Apr", 
+                                                   "May", "Jun", "Jul", "Aug", 
+                                                   "Sep", "Oct", "Nov", "Dec")))
+temp_data$temperature <- as.numeric(temp_data$temperature)
+
+co2_data$temp_anomaly <- temp_data$temperature[match(paste(co2_data$year, co2_data$month), paste(temp_data$Year, temp_data$month))]
+
+write.csv(co2_data, "co2_temperature.csv", row.names = FALSE)
+```
+
+```{r}
+co2_temp_data <- read.csv("co2_temperature.csv")
+ggplot(co2_temp_data, 
+       aes(x = decimal_date, y = co2_interpolated)) + 
+    geom_line() + 
+    theme_bw()
+ggplot(co2_temp_data, 
+       aes(x = decimal_date, y = temp_anomaly)) + 
+    geom_line() + 
+    theme_bw()
+```
+
+
+
 
