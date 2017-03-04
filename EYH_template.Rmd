@@ -1,7 +1,9 @@
 ---
-title: "EYH Demo"
-author: "Hao Ye"
-date: "2/7/2017"
+title: "Introduction to Data Science (EYH)"
+author:
+    - "@@@"
+    - "@@@"
+date: "March 4, 2017"
 output: html_document
 ---
 
@@ -16,7 +18,7 @@ You may notice that the "code chunk" below looks a little different - it has a g
 We can type code in this part of the file and have the computer execute it. Begin by typing "1 + 2" into the code chunk. Then click on the green triangle to run the code and see the output.
 
 ```{r}
-1 + 2
+
 ```
 
 ## Example 2 (variable assignment)
@@ -29,7 +31,7 @@ Try saving the output of "3 ^ 5" into a variable named "b".
 
 ```{r}
 a <- 10 * 10
-b <- 3 ^ 5
+@@@
 ```
 
 After you run the code, do you notice the variables "a" and "b" appearing in your environment? Try typing "a" and "b" in the console.
@@ -60,7 +62,7 @@ This creates a new object containing the data read in from the file.
 
 We can look at the entire dataset by simply evaluating the object as its own line of code:
 
-```{r, results = "hide"}
+```{r}
 co2_temperature
 ```
 
@@ -72,7 +74,7 @@ co2_temperature[1:5, ]
 
 Or the first 4 columns (but all 707 rows):
 
-```{r, results = "hide"}
+```{r}
 co2_temperature[, 1:4]
 ```
 
@@ -96,7 +98,12 @@ Here, we load the `gapminder` package, which contains information about life exp
 
 ```{r}
 library(gapminder)
-summary(gapminder)
+```
+
+Try viewing this dataset:
+
+```{r}
+summary(@@@)
 ```
 
 # Make Plots
@@ -114,7 +121,7 @@ library(ggplot2)
 First, we want to see if there is a relationships between GDP and life expectancy - whether people in richer countries live longer. Since the `gapminder` data contains measurements from multiple years, let's first restrict it to data from 2007. 
 
 ```{r}
-gapminder_2007 <- gapminder[gapminder$year == 2007,] 
+gapminder_2007 <- gapminder[gapminder$year == ????,] 
 ```
 
 Now make a plot. Notice where we set the variables to be plotted on the x-axis and the y-axis, as well as the type of plot.
@@ -130,7 +137,7 @@ Try changing one of the axes variables to be "pop" (population). Is there still 
 .
 ```{r}
 ggplot(gapminder_2007, 
-       aes(x = pop, y = lifeExp)) + 
+       aes(x = @@@, y = @@@)) + 
     geom_point() + 
     theme_bw()
 ```
@@ -140,8 +147,8 @@ ggplot(gapminder_2007,
 In cases where the x-axis is time, we might want to use a line plot instead. Let's try this with the `co2_temperature` dataset.
 
 ```{r}
-ggplot(co2_temperature, 
-       aes(x = decimal_date, y = co2_interpolated)) + 
+ggplot(@@@, 
+       aes(x = decimal_date, y = @@@)) + 
     geom_line() + 
     theme_bw()
 ```
@@ -153,20 +160,20 @@ The `thanksgiving-2015-pie-data.csv` file contains survey results about the kind
 Try reading this into a new variable.
 
 ```{r}
-thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
+@@@ <- read.csv("thanksgiving-2015-pie-data.csv")
 ```
 
 Is there a way to see the contents of the dataset?
 
 ```{r}
-summary(thanksgiving_pies)
+@@@
 ```
 
 To create a barplot, we're going to use a new geom, and this time allow the color to change according to the column name corresponding to the kind of pie:
 
 ```{r}
-ggplot(thanksgiving_pies, 
-       aes(x = "", fill = pie_type)) + 
+ggplot(@@@, 
+       aes(x = "", fill = @@@)) + 
     geom_bar() + 
     theme_bw()
 ```
@@ -174,8 +181,8 @@ ggplot(thanksgiving_pies,
 If we wanted to make this into a "pie" chart, we simply need to add an additional line to change the coordinate system.
 
 ```{r}
-ggplot(thanksgiving_pies, 
-       aes(x = "", fill = pie_type)) + 
+ggplot(@@@, 
+       aes(x = "", fill = @@@)) + 
     geom_bar() + 
     theme_bw() + 
     coord_polar("y")
@@ -188,15 +195,15 @@ The `SW_character_ratings.RDS` file contains survey results about different Star
 Here, we are going to use the `readRDS` function to load the data.
 
 ```{r}
-SW_character_ratings <- readRDS("SW_character_ratings.RDS")
-summary(SW_character_ratings)
+@@@ <- readRDS("@@@")
+summary(@@@)
 ```
 
 For this plot, we want the characters to be different bars along the x-axis, with color based on the rating.
 
 ```{r}
-ggplot(SW_character_ratings, 
-       aes(x = character, fill = rating)) + 
+ggplot(@@@, 
+       aes(x = @@@, fill = @@@)) + 
     geom_bar() + 
     theme_bw() + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0))
@@ -210,24 +217,22 @@ What about favorable ratings?
 
 * Define the colors for the pie chart:
 ```{r}
-thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
 ggplot(thanksgiving_pies, 
        aes(x = "", fill = pie_type)) + 
     geom_bar() + 
-    scale_fill_manual(values = c("Apple" = "red", 
-                                 "Buttermilk" = "antiquewhite", 
-                                 "Cherry" = "maroon", 
-                                 "Chocolate" = "chocolate", 
-                                 "Coconute cream" = "white", 
-                                 "Key lime" = "green", 
-                                 "None" = "gray", 
-                                 "Peach" = "orange", 
-                                 "Pecan" = "tan", 
-                                 "Pumpkin" = "dark orange", 
-                                 "Sweet Potato" = "brown")) + 
+    scale_fill_manual(values = c("Apple" = "@@@", 
+                                 "Buttermilk" = "@@@", 
+                                 "Cherry" = "@@@", 
+                                 "Chocolate" = "@@@", 
+                                 "Coconute cream" = "@@@", 
+                                 "Key lime" = "@@@", 
+                                 "None" = "@@@", 
+                                 "Peach" = "@@@", 
+                                 "Pecan" = "@@@", 
+                                 "Pumpkin" = "@@@", 
+                                 "Sweet Potato" = "@@@")) + 
     theme_bw() + 
     coord_polar("y")
-
 ```
 
 # Generate Report
