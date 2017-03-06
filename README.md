@@ -64,7 +64,7 @@ The "Thanksgiving Dinner" and "Star Wars" survey data come from the [FiveThirtyE
 
 The "Gapminder" data are included in the [gapminder R package](https://github.com/jennybc/gapminder).
 
-CO$_2$ data come from [NOAA ESRL](www.esrl.noaa.gov/gmd/ccgg/trends/). Temperature data come from [NASA GISS](https://data.giss.nasa.gov/gistemp/), specifically, the Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies (Global monthly means).
+CO_2 data come from [NOAA ESRL](https://www.esrl.noaa.gov/gmd/ccgg/trends/). Temperature data come from [NASA GISS](https://data.giss.nasa.gov/gistemp/), specifically, the Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies (Global monthly means).
 
 ## Resources
 
