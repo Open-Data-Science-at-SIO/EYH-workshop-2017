@@ -60,6 +60,12 @@ The specific aims of the workshop are to train students in the following tasks:
 
 We would like to thank Ali Freibott, Sue Lowery, Jenny Prairie, and Darcy Taniguchi for their helpful input on this event.
 
+The "Thanksgiving Dinner" and "Star Wars" survey data come from the [FiveThirtyEight repo](https://github.com/fivethirtyeight/data).
+
+The "Gapminder" data are included in the [gapminder R package](https://github.com/jennybc/gapminder).
+
+CO$_2$ data come from [NOAA ESRL](www.esrl.noaa.gov/gmd/ccgg/trends/). Temperature data come from [NASA GISS](https://data.giss.nasa.gov/gistemp/), specifically, the Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies (Global monthly means).
+
 ## Resources
 
 {links to software downloads and other tutorials}

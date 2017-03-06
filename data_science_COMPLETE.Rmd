@@ -1,7 +1,10 @@
 ---
-title: "EYH Demo"
-author: "Hao Ye"
-date: "2/7/2017"
+title: "Introduction to Data Science (EYH)"
+author:
+    - "Jessica Carrière-Garwood"
+    - "Lynn Waterhouse"
+    - "Hao Ye"
+date: "March 4, 2017"
 output: html_document
 ---
 
@@ -41,7 +44,7 @@ a - b
 
 a * a + b
 
-sqrt((a + b) / 7)
+sqrt((a + b) / 7) # pseudo Fermat-triple: 10^2 + 3^5 = 7^3
 ```
 
 # Loading and Viewing Data
@@ -64,39 +67,32 @@ We can look at the entire dataset by simply evaluating the object as its own lin
 co2_temperature
 ```
 
+*output hidden due to length*
+
 Or portions of the dataset, such as the first 5 rows (but all 8 columns):
 
 ```{r}
 co2_temperature[1:5, ]
 ```
 
-Or the first 4 columns (but all 707 rows):
+Or the first 2 columns (but all 707 rows):
 
 ```{r, results = "hide"}
-co2_temperature[, 1:4]
+co2_temperature[, 1:2]
 ```
 
-Or only the first 5 rows and first 4 columns:
+*output hidden due to length*
+
+Or only the first 5 rows and first 2 columns:
 
 ```{r}
-co2_temperature[1:5, 1:4]
+co2_temperature[1:5, 1:2]
 ```
 
 There are also convenient functions for viewing datasets:
 
 ```{r}
 summary(co2_temperature)
-```
-
-## Load data from package (Gapminder)
-
-Some datasets are also part of packages, which are extensions of R that can be installed and then loaded.
-
-Here, we load the `gapminder` package, which contains information about life expectancy, population size, and gross domestric product (GDP) for 136 countries from 1952 to 2007:
-
-```{r}
-library(gapminder)
-summary(gapminder)
 ```
 
 # Make Plots
@@ -109,6 +105,46 @@ To do this, we are going to load the `ggplot2` package.
 library(ggplot2)
 ```
 
+## Basic lineplot (Carbon Dioxide)
+
+First, let's make a line plot, where the data points are joined together in order. Let's try this with the `co2_temperature` dataset.
+
+Here, the first variable to be replaced will be the name of the dataset. The x-axis variable has already been selected as `decimal_date`, which spaces out the months of the year accordingly, and the y-axis variable is `co2_interpolated`, which is the average monthly carbon-dioxide measurement, with missing values filled in through estimatation.
+
+```{r}
+ggplot(co2_temperature, 
+       aes(x = decimal_date, y = co2_interpolated)) + 
+    geom_line() + 
+    theme_bw()
+```
+
+Now try picking your own y-axis variable - select any of the columns of the dataset to try:
+
+```{r}
+ggplot(co2_temperature, 
+       aes(x = decimal_date, y = co2_trend)) + 
+    geom_line() + 
+    theme_bw()
+```
+
+*Here, the `co2_trend` variable is an estimate for the general trend in carbon dioxide, computed by subtracting out the seasonal variability.*
+
+## Load data from package (Gapminder)
+
+Some datasets are also part of packages, which are extensions of R that can be installed and then loaded.
+
+Here, we load the `gapminder` package, which contains information about life expectancy, population size, and gross domestric product (GDP) for 136 countries from 1952 to 2007:
+
+```{r}
+library(gapminder)
+```
+
+Try viewing this dataset:
+
+```{r}
+summary(gapminder)
+```
+
 ## Basic scatterplot (Gapminder)
 
 First, we want to see if there is a relationships between GDP and life expectancy - whether people in richer countries live longer. Since the `gapminder` data contains measurements from multiple years, let's first restrict it to data from 2007. 
@@ -117,7 +153,9 @@ First, we want to see if there is a relationships between GDP and life expectanc
 gapminder_2007 <- gapminder[gapminder$year == 2007,] 
 ```
 
-Now make a plot. Notice where we set the variables to be plotted on the x-axis and the y-axis, as well as the type of plot.
+Now make a plot with the average income (variable `gdpPercap`) on the x-axis, and life expectancy (variable `lifeExp`) on the y-axis. 
+
+Recall that the first variable for `ggplot` will be the name of the dataset:
 
 ```{r}
 ggplot(gapminder_2007, 
@@ -130,21 +168,11 @@ Try changing one of the axes variables to be "pop" (population). Is there still 
 .
 ```{r}
 ggplot(gapminder_2007, 
-       aes(x = pop, y = lifeExp)) + 
+       aes(x = gdpPercap, y = pop)) + 
     geom_point() + 
     theme_bw()
 ```
 
-## Basic lineplot (Carbon Dioxide)
-
-In cases where the x-axis is time, we might want to use a line plot instead. Let's try this with the `co2_temperature` dataset.
-
-```{r}
-ggplot(co2_temperature, 
-       aes(x = decimal_date, y = co2_interpolated)) + 
-    geom_line() + 
-    theme_bw()
-```
 
 ## Basic barplot (Thanksgiving pies)
 
@@ -156,13 +184,16 @@ Try reading this into a new variable.
 thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
 ```
 
-Is there a way to see the contents of the dataset?
+Let's use the `summary` function to see the contents of the dataset:
 
 ```{r}
 summary(thanksgiving_pies)
 ```
 
-To create a barplot, we're going to use a new geom, and this time allow the color to change according to the column name corresponding to the kind of pie:
+To create a barplot, we're going to use a new geom, and this time allow the color to change according to the column name corresponding to the kind of pie.
+
+As before, the first input to `ggplot` will be the name of the dataset, 
+and the `fill` variable will be the column of the dataset with the data we want to plot:
 
 ```{r}
 ggplot(thanksgiving_pies, 
@@ -171,7 +202,7 @@ ggplot(thanksgiving_pies,
     theme_bw()
 ```
 
-If we wanted to make this into a "pie" chart, we simply need to add an additional line to change the coordinate system.
+If we wanted to make this into a "pie" chart, we can use the same code as before, but add an additional line to change the coordinate system.
 
 ```{r}
 ggplot(thanksgiving_pies, 
@@ -181,36 +212,19 @@ ggplot(thanksgiving_pies,
     coord_polar("y")
 ```
 
-## Stacked barplot (Star Wars character ratings)
-
-The `SW_character_ratings.RDS` file contains survey results about different Star Wars characters. Answers are on a 5-point scale from "Very unfavorably" to "Very favorably", with some empty answers.
-
-Here, we are going to use the `readRDS` function to load the data.
-
-```{r}
-SW_character_ratings <- readRDS("SW_character_ratings.RDS")
-summary(SW_character_ratings)
-```
-
-For this plot, we want the characters to be different bars along the x-axis, with color based on the rating.
-
-```{r}
-ggplot(SW_character_ratings, 
-       aes(x = character, fill = rating)) + 
-    geom_bar() + 
-    theme_bw() + 
-    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0))
-```
-
-Which character has the most "very unfavorable" ratings?
-What about "very unfavorable" and "somewhat unfavorable"?
-What about favorable ratings?
-
 ## Challenge Tasks
 
-* Define the colors for the pie chart:
+If we want to change the default colors, we can do that by adding additional lines to define the color to use for the individual kinds of pie. Note that we can use `colors()` to see the list of available colors in R:
+
+```{r, results = "hide"}
+colors()
+```
+
+*output hidden due to length*
+
+Custom-colored pie pie-chart:
+
 ```{r}
-thanksgiving_pies <- read.csv("thanksgiving-2015-pie-data.csv")
 ggplot(thanksgiving_pies, 
        aes(x = "", fill = pie_type)) + 
     geom_bar() + 
@@ -218,7 +232,7 @@ ggplot(thanksgiving_pies,
                                  "Buttermilk" = "antiquewhite", 
                                  "Cherry" = "maroon", 
                                  "Chocolate" = "chocolate", 
-                                 "Coconute cream" = "white", 
+                                 "Coconut cream" = "white", 
                                  "Key lime" = "green", 
                                  "None" = "gray", 
                                  "Peach" = "orange", 
