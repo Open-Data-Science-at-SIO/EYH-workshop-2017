@@ -66,6 +66,21 @@ The "Gapminder" data are included in the [gapminder R package](https://github.co
 
 CO_2 data come from [NOAA ESRL](https://www.esrl.noaa.gov/gmd/ccgg/trends/). Temperature data come from [NASA GISS](https://data.giss.nasa.gov/gistemp/), specifically, the Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies (Global monthly means).
 
-## Resources
-
+## Learning R Resources
 {links to software downloads and other tutorials}
+
+## Cool Stuff in R Resources
+Analysis of Pokemon Go characters:
+http://blog.revolutionanalytics.com/2016/07/an-analysis-of-pok%C3%A9mon-go-types-created-with-r.html
+
+Analysis of Colors of Flags using R:
+https://gist.github.com/dsparks/3927280
+https://www.r-bloggers.com/distribution-of-colors-by-flag/
+
+Tracking Hurricanes and Mapping with R:
+https://www.r-bloggers.com/tracking-hurricane-sandy-with-open-data-and-r/
+
+Analysis of words spoken by simpson's characters:
+http://toddwschneider.com/posts/the-simpsons-by-the-data/
+
+
