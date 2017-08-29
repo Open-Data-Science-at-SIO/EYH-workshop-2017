@@ -1,0 +1,886 @@
+County name,State name,FIPS,Land area (sq. mi.),Years from college age,White,Black,Asian,American Indian or Alaska Native,Native Hawaiian or Other Pacific Islander,Hispanic or Latino,Some Other Race,Two or More Races
+,California,6,155779.22,0,154244,32378,56795,2323,1999,264746,1415,21105
+,California,6,155779.22,1,149231,30912,55558,2218,1848,261515,1425,20605
+,California,6,155779.22,2,144843,30246,53706,2126,1856,257768,1441,21271
+,California,6,155779.22,3,143238,29633,51201,2086,1785,257415,1471,21175
+,California,6,155779.22,4,141970,29303,52554,1979,1809,260524,1486,21727
+,California,6,155779.22,5,139025,28268,55194,2104,1700,260321,1417,21636
+,California,6,155779.22,6,134481,27145,50618,1900,1695,254752,1345,21615
+,California,6,155779.22,7,134349,26588,52375,2008,1666,256398,1483,22163
+,California,6,155779.22,8,135023,25823,53062,1912,1554,258357,1458,23229
+,California,6,155779.22,9,133309,25737,53532,1948,1764,263330,1468,24087
+,California,6,155779.22,10,132526,25987,51547,1952,1618,267454,1493,24331
+,California,6,155779.22,11,132324,26451,51981,1900,1681,275649,1546,25079
+,California,6,155779.22,12,129413,26576,53073,1905,1680,276292,1586,25477
+,California,6,155779.22,13,126056,25776,49458,1817,1597,265939,1478,25633
+,California,6,155779.22,14,125043,25062,48421,1882,1480,264572,1611,25987
+Alameda County,California,6001,739.02,0,4511,2429,4552,40,200,5518,60,1232
+Alameda County,California,6001,739.02,1,4376,2349,4391,53,184,5609,74,1233
+Alameda County,California,6001,739.02,2,4222,2370,4321,52,201,5588,65,1276
+Alameda County,California,6001,739.02,3,4101,2331,4251,41,171,5755,64,1214
+Alameda County,California,6001,739.02,4,4207,2243,4420,32,160,5846,70,1258
+Alameda County,California,6001,739.02,5,4265,2248,4778,32,149,5882,72,1341
+Alameda County,California,6001,739.02,6,4172,2244,4437,37,140,5991,69,1364
+Alameda County,California,6001,739.02,7,4062,2175,4764,51,146,6086,68,1425
+Alameda County,California,6001,739.02,8,4388,2073,4820,43,142,6203,82,1497
+Alameda County,California,6001,739.02,9,4169,2062,5008,43,169,6263,77,1509
+Alameda County,California,6001,739.02,10,4219,1999,4714,53,153,6598,76,1573
+Alameda County,California,6001,739.02,11,4208,2119,4751,48,177,6620,79,1653
+Alameda County,California,6001,739.02,12,4172,2129,5021,42,164,6916,88,1636
+Alameda County,California,6001,739.02,13,4193,2018,4601,55,157,6595,82,1733
+Alameda County,California,6001,739.02,14,4068,2000,4536,64,131,6410,95,1706
+Alpine County,California,6003,738.33,0,7,0,0,5,0,2,0,2
+Alpine County,California,6003,738.33,1,7,0,0,2,0,4,0,0
+Alpine County,California,6003,738.33,2,8,0,0,3,0,2,0,1
+Alpine County,California,6003,738.33,3,7,0,0,5,0,0,0,0
+Alpine County,California,6003,738.33,4,10,0,0,2,0,2,0,0
+Alpine County,California,6003,738.33,5,12,0,0,3,0,1,0,0
+Alpine County,California,6003,738.33,6,11,0,0,5,0,2,0,0
+Alpine County,California,6003,738.33,7,13,0,0,6,0,1,0,0
+Alpine County,California,6003,738.33,8,10,0,0,4,0,2,0,0
+Alpine County,California,6003,738.33,9,5,0,0,3,0,2,0,0
+Alpine County,California,6003,738.33,10,13,0,0,5,0,1,0,0
+Alpine County,California,6003,738.33,11,9,0,0,1,0,6,0,0
+Alpine County,California,6003,738.33,12,10,0,0,9,0,1,0,0
+Alpine County,California,6003,738.33,13,3,0,0,4,0,4,0,0
+Alpine County,California,6003,738.33,14,2,0,0,2,0,0,0,1
+Amador County,California,6005,594.58,0,288,2,4,6,0,83,4,28
+Amador County,California,6005,594.58,1,281,1,5,10,0,50,0,30
+Amador County,California,6005,594.58,2,261,0,0,9,0,73,1,23
+Amador County,California,6005,594.58,3,254,0,5,5,0,58,1,20
+Amador County,California,6005,594.58,4,269,1,1,8,1,76,1,22
+Amador County,California,6005,594.58,5,242,2,2,7,0,70,0,14
+Amador County,California,6005,594.58,6,229,0,4,8,1,54,0,20
+Amador County,California,6005,594.58,7,216,2,2,9,0,75,0,19
+Amador County,California,6005,594.58,8,256,0,2,5,0,62,0,12
+Amador County,California,6005,594.58,9,258,0,1,8,0,56,1,18
+Amador County,California,6005,594.58,10,210,2,3,3,0,53,0,16
+Amador County,California,6005,594.58,11,205,3,3,7,0,75,1,16
+Amador County,California,6005,594.58,12,183,2,6,5,1,56,0,10
+Amador County,California,6005,594.58,13,214,1,1,5,1,48,0,20
+Amador County,California,6005,594.58,14,203,0,2,2,0,52,1,21
+Butte County,California,6007,1636.46,0,1700,37,187,52,9,604,5,163
+Butte County,California,6007,1636.46,1,1602,44,210,52,4,565,4,135
+Butte County,California,6007,1636.46,2,1544,36,153,52,9,559,5,125
+Butte County,California,6007,1636.46,3,1521,47,152,62,3,587,5,153
+Butte County,California,6007,1636.46,4,1528,37,168,43,12,571,7,159
+Butte County,California,6007,1636.46,5,1528,39,135,61,8,603,7,174
+Butte County,California,6007,1636.46,6,1469,38,131,57,7,599,6,173
+Butte County,California,6007,1636.46,7,1521,35,139,48,7,579,5,135
+Butte County,California,6007,1636.46,8,1525,37,127,57,8,589,3,165
+Butte County,California,6007,1636.46,9,1426,37,138,62,3,599,5,154
+Butte County,California,6007,1636.46,10,1464,46,124,43,4,687,5,139
+Butte County,California,6007,1636.46,11,1517,41,136,40,5,635,5,196
+Butte County,California,6007,1636.46,12,1433,35,135,49,4,616,7,183
+Butte County,California,6007,1636.46,13,1400,40,127,46,3,630,2,192
+Butte County,California,6007,1636.46,14,1412,27,149,40,4,619,5,164
+Calaveras County,California,6009,1020.01,0,421,6,13,6,1,100,2,25
+Calaveras County,California,6009,1020.01,1,440,5,7,5,0,93,1,27
+Calaveras County,California,6009,1020.01,2,420,7,6,4,0,100,1,27
+Calaveras County,California,6009,1020.01,3,402,4,9,7,1,87,1,23
+Calaveras County,California,6009,1020.01,4,389,5,7,3,0,99,0,16
+Calaveras County,California,6009,1020.01,5,365,8,8,4,2,80,2,30
+Calaveras County,California,6009,1020.01,6,333,3,7,4,0,79,2,30
+Calaveras County,California,6009,1020.01,7,301,2,7,8,0,99,0,26
+Calaveras County,California,6009,1020.01,8,301,4,5,5,0,81,0,20
+Calaveras County,California,6009,1020.01,9,307,6,4,2,0,80,1,23
+Calaveras County,California,6009,1020.01,10,298,4,1,7,0,72,0,21
+Calaveras County,California,6009,1020.01,11,335,3,1,3,0,71,2,18
+Calaveras County,California,6009,1020.01,12,303,5,3,5,1,75,1,21
+Calaveras County,California,6009,1020.01,13,282,1,2,6,0,60,1,22
+Calaveras County,California,6009,1020.01,14,278,0,3,5,0,65,0,17
+Colusa County,California,6011,1150.73,0,87,3,5,13,0,230,0,9
+Colusa County,California,6011,1150.73,1,85,1,3,4,0,212,0,1
+Colusa County,California,6011,1150.73,2,82,5,4,9,0,241,0,9
+Colusa County,California,6011,1150.73,3,110,0,3,3,0,219,0,4
+Colusa County,California,6011,1150.73,4,86,3,4,4,1,243,0,9
+Colusa County,California,6011,1150.73,5,100,3,1,4,0,253,0,4
+Colusa County,California,6011,1150.73,6,95,3,5,6,0,232,1,9
+Colusa County,California,6011,1150.73,7,88,1,1,6,0,221,1,2
+Colusa County,California,6011,1150.73,8,85,4,3,6,0,235,0,7
+Colusa County,California,6011,1150.73,9,82,2,4,7,0,257,0,5
+Colusa County,California,6011,1150.73,10,79,0,1,7,1,271,1,7
+Colusa County,California,6011,1150.73,11,70,2,0,4,0,299,0,2
+Colusa County,California,6011,1150.73,12,83,2,3,7,0,304,1,5
+Colusa County,California,6011,1150.73,13,63,2,4,6,0,270,0,6
+Colusa County,California,6011,1150.73,14,63,0,3,9,1,258,2,5
+Contra Costa County,California,6013,715.94,0,6024,1523,1862,38,74,4659,55,1003
+Contra Costa County,California,6013,715.94,1,5702,1469,1868,32,71,4774,60,1031
+Contra Costa County,California,6013,715.94,2,5540,1444,1864,37,63,4782,49,1006
+Contra Costa County,California,6013,715.94,3,5532,1431,1743,30,57,4680,66,1044
+Contra Costa County,California,6013,715.94,4,5498,1432,1838,37,59,4826,66,1075
+Contra Costa County,California,6013,715.94,5,5318,1379,1984,34,69,4906,56,1032
+Contra Costa County,California,6013,715.94,6,5159,1329,1875,31,53,4868,44,1084
+Contra Costa County,California,6013,715.94,7,5143,1240,1921,31,48,4885,62,1032
+Contra Costa County,California,6013,715.94,8,5057,1264,1879,36,61,4966,45,1119
+Contra Costa County,California,6013,715.94,9,4916,1217,1866,37,47,5046,68,1078
+Contra Costa County,California,6013,715.94,10,4653,1184,1855,39,51,5001,62,1081
+Contra Costa County,California,6013,715.94,11,4541,1253,1837,21,64,5373,58,1122
+Contra Costa County,California,6013,715.94,12,4253,1174,1708,32,58,5168,66,1127
+Contra Costa County,California,6013,715.94,13,3990,1186,1557,19,56,4842,52,1062
+Contra Costa County,California,6013,715.94,14,3833,1033,1494,24,48,4916,66,1059
+Del Norte County,California,6015,1006.37,0,188,2,27,31,0,64,2,14
+Del Norte County,California,6015,1006.37,1,223,0,27,38,1,70,1,16
+Del Norte County,California,6015,1006.37,2,197,5,23,31,0,76,1,26
+Del Norte County,California,6015,1006.37,3,171,0,15,38,0,68,0,19
+Del Norte County,California,6015,1006.37,4,184,1,17,45,0,76,0,21
+Del Norte County,California,6015,1006.37,5,195,0,18,35,0,79,1,26
+Del Norte County,California,6015,1006.37,6,181,0,17,27,0,75,0,25
+Del Norte County,California,6015,1006.37,7,144,1,11,35,0,75,1,25
+Del Norte County,California,6015,1006.37,8,162,3,24,29,0,73,0,25
+Del Norte County,California,6015,1006.37,9,141,3,21,28,0,70,0,17
+Del Norte County,California,6015,1006.37,10,185,1,16,44,0,69,2,20
+Del Norte County,California,6015,1006.37,11,216,1,16,36,0,98,1,26
+Del Norte County,California,6015,1006.37,12,169,1,17,47,0,74,0,27
+Del Norte County,California,6015,1006.37,13,162,1,25,35,0,70,0,18
+Del Norte County,California,6015,1006.37,14,166,1,16,26,0,92,1,24
+El Dorado County,California,6017,1707.88,0,1878,28,90,31,1,454,10,112
+El Dorado County,California,6017,1707.88,1,1822,26,87,29,8,460,6,116
+El Dorado County,California,6017,1707.88,2,1734,27,86,17,3,462,8,119
+El Dorado County,California,6017,1707.88,3,1693,26,86,14,2,412,6,130
+El Dorado County,California,6017,1707.88,4,1737,25,97,30,4,494,9,127
+El Dorado County,California,6017,1707.88,5,1600,18,103,21,1,432,5,126
+El Dorado County,California,6017,1707.88,6,1549,20,90,28,4,416,8,117
+El Dorado County,California,6017,1707.88,7,1593,16,81,12,3,443,6,110
+El Dorado County,California,6017,1707.88,8,1532,16,85,10,1,436,3,118
+El Dorado County,California,6017,1707.88,9,1412,8,93,17,4,461,3,125
+El Dorado County,California,6017,1707.88,10,1408,8,81,17,4,479,2,105
+El Dorado County,California,6017,1707.88,11,1390,15,64,15,3,485,5,114
+El Dorado County,California,6017,1707.88,12,1239,18,55,17,1,454,2,97
+El Dorado County,California,6017,1707.88,13,1183,4,50,16,2,452,1,91
+El Dorado County,California,6017,1707.88,14,1068,14,49,12,3,396,3,91
+Fresno County,California,6019,5957.99,0,3426,819,1644,83,19,8922,31,366
+Fresno County,California,6019,5957.99,1,3193,771,1505,94,10,9061,24,404
+Fresno County,California,6019,5957.99,2,3182,768,1381,80,15,9119,38,362
+Fresno County,California,6019,5957.99,3,3191,733,1378,85,15,9146,24,415
+Fresno County,California,6019,5957.99,4,3147,751,1396,77,15,9265,32,422
+Fresno County,California,6019,5957.99,5,2958,754,1392,92,15,9303,27,386
+Fresno County,California,6019,5957.99,6,2957,697,1331,79,16,9161,27,363
+Fresno County,California,6019,5957.99,7,2869,707,1336,83,6,9458,25,403
+Fresno County,California,6019,5957.99,8,2917,703,1323,79,14,9694,28,413
+Fresno County,California,6019,5957.99,9,2860,692,1382,80,8,9937,33,432
+Fresno County,California,6019,5957.99,10,2895,668,1349,88,21,10073,29,452
+Fresno County,California,6019,5957.99,11,2856,725,1409,75,19,10499,44,449
+Fresno County,California,6019,5957.99,12,2899,771,1414,86,19,10723,33,434
+Fresno County,California,6019,5957.99,13,2741,709,1311,72,13,10024,35,446
+Fresno County,California,6019,5957.99,14,2703,723,1353,82,14,10153,49,522
+Glenn County,California,6021,1313.95,0,222,3,11,7,0,215,0,7
+Glenn County,California,6021,1313.95,1,192,6,8,5,1,223,1,4
+Glenn County,California,6021,1313.95,2,183,4,13,3,0,246,1,8
+Glenn County,California,6021,1313.95,3,176,1,10,6,1,221,0,6
+Glenn County,California,6021,1313.95,4,198,6,14,4,0,208,1,12
+Glenn County,California,6021,1313.95,5,176,1,11,8,0,227,0,12
+Glenn County,California,6021,1313.95,6,188,0,8,7,0,217,1,10
+Glenn County,California,6021,1313.95,7,168,1,17,12,0,200,1,10
+Glenn County,California,6021,1313.95,8,164,1,16,12,0,207,1,14
+Glenn County,California,6021,1313.95,9,168,4,13,12,0,219,1,8
+Glenn County,California,6021,1313.95,10,189,2,8,7,0,245,1,15
+Glenn County,California,6021,1313.95,11,154,3,5,7,1,219,1,13
+Glenn County,California,6021,1313.95,12,175,5,10,5,0,220,1,18
+Glenn County,California,6021,1313.95,13,167,3,10,6,0,251,0,11
+Glenn County,California,6021,1313.95,14,149,3,7,8,1,243,0,15
+Humboldt County,California,6023,3567.99,0,921,15,43,124,5,197,1,114
+Humboldt County,California,6023,3567.99,1,953,7,42,118,4,215,0,116
+Humboldt County,California,6023,3567.99,2,965,20,37,121,5,238,5,111
+Humboldt County,California,6023,3567.99,3,938,11,48,109,2,256,6,116
+Humboldt County,California,6023,3567.99,4,877,16,34,112,4,219,4,113
+Humboldt County,California,6023,3567.99,5,925,11,39,128,1,250,7,103
+Humboldt County,California,6023,3567.99,6,929,14,36,112,8,268,9,127
+Humboldt County,California,6023,3567.99,7,861,14,40,130,9,253,3,84
+Humboldt County,California,6023,3567.99,8,918,13,49,107,5,232,5,111
+Humboldt County,California,6023,3567.99,9,908,13,54,141,12,257,4,134
+Humboldt County,California,6023,3567.99,10,962,20,30,127,3,254,6,122
+Humboldt County,California,6023,3567.99,11,1019,14,29,151,4,307,4,135
+Humboldt County,California,6023,3567.99,12,913,11,41,112,6,298,3,127
+Humboldt County,California,6023,3567.99,13,911,18,37,123,5,321,5,101
+Humboldt County,California,6023,3567.99,14,966,13,26,101,3,271,4,135
+Imperial County,California,6025,4176.6,0,227,26,32,28,1,2570,6,21
+Imperial County,California,6025,4176.6,1,227,23,34,32,0,2613,5,21
+Imperial County,California,6025,4176.6,2,215,34,29,31,1,2558,1,23
+Imperial County,California,6025,4176.6,3,206,15,29,33,0,2536,2,24
+Imperial County,California,6025,4176.6,4,220,22,33,29,1,2606,3,19
+Imperial County,California,6025,4176.6,5,209,22,30,25,0,2447,4,22
+Imperial County,California,6025,4176.6,6,204,32,30,23,0,2373,3,14
+Imperial County,California,6025,4176.6,7,217,21,17,32,0,2504,1,24
+Imperial County,California,6025,4176.6,8,199,21,19,25,0,2464,2,24
+Imperial County,California,6025,4176.6,9,221,21,30,33,1,2498,4,25
+Imperial County,California,6025,4176.6,10,220,30,19,27,0,2369,0,19
+Imperial County,California,6025,4176.6,11,205,31,20,24,1,2413,2,28
+Imperial County,California,6025,4176.6,12,203,21,22,35,1,2440,1,17
+Imperial County,California,6025,4176.6,13,202,25,14,29,0,2465,5,25
+Imperial County,California,6025,4176.6,14,180,18,19,25,1,2351,2,17
+Inyo County,California,6027,10180.88,0,107,2,2,32,0,89,1,16
+Inyo County,California,6027,10180.88,1,125,2,1,34,0,76,1,14
+Inyo County,California,6027,10180.88,2,101,2,2,29,0,61,0,7
+Inyo County,California,6027,10180.88,3,104,1,2,28,0,74,0,4
+Inyo County,California,6027,10180.88,4,107,4,3,16,0,78,1,8
+Inyo County,California,6027,10180.88,5,87,0,4,18,0,66,1,11
+Inyo County,California,6027,10180.88,6,76,1,4,32,0,82,0,7
+Inyo County,California,6027,10180.88,7,78,1,0,28,0,69,0,5
+Inyo County,California,6027,10180.88,8,70,0,4,40,0,72,0,8
+Inyo County,California,6027,10180.88,9,89,0,0,26,1,98,0,7
+Inyo County,California,6027,10180.88,10,89,0,2,35,0,76,0,4
+Inyo County,California,6027,10180.88,11,81,1,1,22,0,99,0,5
+Inyo County,California,6027,10180.88,12,86,0,0,32,0,75,0,8
+Inyo County,California,6027,10180.88,13,103,1,2,37,0,82,0,2
+Inyo County,California,6027,10180.88,14,90,1,2,30,0,88,0,16
+Kern County,California,6029,8131.92,0,3870,731,489,95,22,8220,32,365
+Kern County,California,6029,8131.92,1,3742,713,519,79,22,8341,15,335
+Kern County,California,6029,8131.92,2,3793,674,454,91,17,8173,27,345
+Kern County,California,6029,8131.92,3,3773,681,449,96,18,8272,23,360
+Kern County,California,6029,8131.92,4,3662,641,449,78,19,8387,24,377
+Kern County,California,6029,8131.92,5,3564,729,479,82,11,8617,22,359
+Kern County,California,6029,8131.92,6,3523,670,413,68,7,8310,25,331
+Kern County,California,6029,8131.92,7,3506,685,438,74,21,8520,28,351
+Kern County,California,6029,8131.92,8,3507,660,457,62,6,8701,21,386
+Kern County,California,6029,8131.92,9,3594,696,407,69,12,8861,20,402
+Kern County,California,6029,8131.92,10,3639,713,401,61,9,9131,22,415
+Kern County,California,6029,8131.92,11,3673,723,382,67,12,9429,27,397
+Kern County,California,6029,8131.92,12,3630,703,435,57,9,9477,31,418
+Kern County,California,6029,8131.92,13,3520,747,371,62,12,9230,30,451
+Kern County,California,6029,8131.92,14,3616,706,405,67,11,9289,32,475
+Kings County,California,6031,1389.42,0,601,105,63,20,4,1367,9,69
+Kings County,California,6031,1389.42,1,615,97,65,21,4,1418,2,80
+Kings County,California,6031,1389.42,2,536,96,77,22,2,1443,4,81
+Kings County,California,6031,1389.42,3,585,90,58,26,0,1444,4,84
+Kings County,California,6031,1389.42,4,572,107,59,25,3,1380,3,83
+Kings County,California,6031,1389.42,5,529,75,62,32,1,1487,3,84
+Kings County,California,6031,1389.42,6,557,78,67,19,5,1455,2,72
+Kings County,California,6031,1389.42,7,597,100,67,24,3,1425,4,80
+Kings County,California,6031,1389.42,8,557,81,56,20,2,1494,4,78
+Kings County,California,6031,1389.42,9,582,75,63,22,3,1582,7,110
+Kings County,California,6031,1389.42,10,585,98,62,21,3,1554,2,91
+Kings County,California,6031,1389.42,11,636,83,68,14,6,1740,3,129
+Kings County,California,6031,1389.42,12,628,93,76,20,3,1723,5,120
+Kings County,California,6031,1389.42,13,616,78,47,15,5,1632,2,128
+Kings County,California,6031,1389.42,14,629,84,49,33,0,1676,4,116
+Lake County,California,6033,1256.46,0,509,11,5,27,0,236,0,43
+Lake County,California,6033,1256.46,1,490,10,6,33,0,222,1,37
+Lake County,California,6033,1256.46,2,446,13,8,22,1,222,0,33
+Lake County,California,6033,1256.46,3,444,7,9,22,0,210,3,38
+Lake County,California,6033,1256.46,4,458,15,2,31,0,230,1,43
+Lake County,California,6033,1256.46,5,402,11,4,22,1,231,1,27
+Lake County,California,6033,1256.46,6,418,12,10,26,0,243,2,31
+Lake County,California,6033,1256.46,7,403,10,2,23,3,210,0,33
+Lake County,California,6033,1256.46,8,390,4,5,25,1,234,1,40
+Lake County,California,6033,1256.46,9,409,9,7,28,1,246,3,46
+Lake County,California,6033,1256.46,10,402,7,8,22,3,245,1,51
+Lake County,California,6033,1256.46,11,404,3,4,34,0,233,2,33
+Lake County,California,6033,1256.46,12,402,14,8,22,3,264,1,44
+Lake County,California,6033,1256.46,13,381,11,7,19,1,230,1,47
+Lake County,California,6033,1256.46,14,383,11,4,24,1,262,1,40
+Lassen County,California,6035,4541.18,0,265,4,3,11,0,61,1,23
+Lassen County,California,6035,4541.18,1,282,5,2,11,0,65,1,20
+Lassen County,California,6035,4541.18,2,285,2,3,10,2,60,0,25
+Lassen County,California,6035,4541.18,3,269,4,4,18,3,58,1,13
+Lassen County,California,6035,4541.18,4,249,3,4,11,7,53,0,15
+Lassen County,California,6035,4541.18,5,240,4,0,24,5,47,0,16
+Lassen County,California,6035,4541.18,6,212,3,6,11,1,69,0,12
+Lassen County,California,6035,4541.18,7,243,1,4,7,1,51,0,24
+Lassen County,California,6035,4541.18,8,206,6,2,10,3,56,0,24
+Lassen County,California,6035,4541.18,9,218,6,1,14,5,45,0,18
+Lassen County,California,6035,4541.18,10,236,4,5,7,1,55,0,15
+Lassen County,California,6035,4541.18,11,210,5,2,22,1,57,0,15
+Lassen County,California,6035,4541.18,12,221,5,4,6,3,52,0,22
+Lassen County,California,6035,4541.18,13,211,4,1,11,2,72,0,28
+Lassen County,California,6035,4541.18,14,231,5,6,12,1,76,0,17
+Los Angeles County,California,6037,4057.88,0,24639,11783,14579,216,337,87079,473,3625
+Los Angeles County,California,6037,4057.88,1,23384,11156,13980,221,312,84681,461,3604
+Los Angeles County,California,6037,4057.88,2,23162,10834,13253,201,338,82767,460,3684
+Los Angeles County,California,6037,4057.88,3,22843,10635,12236,174,329,81177,431,3678
+Los Angeles County,California,6037,4057.88,4,22477,10638,12513,175,355,81745,464,3746
+Los Angeles County,California,6037,4057.88,5,22034,10156,12693,203,301,80931,441,3706
+Los Angeles County,California,6037,4057.88,6,21325,9582,11355,171,298,78557,422,3735
+Los Angeles County,California,6037,4057.88,7,21310,9334,11690,179,278,78052,445,3796
+Los Angeles County,California,6037,4057.88,8,21583,9246,11540,162,281,78468,425,4028
+Los Angeles County,California,6037,4057.88,9,21578,9136,11582,172,332,79548,467,4148
+Los Angeles County,California,6037,4057.88,10,21393,9160,11000,192,297,80505,469,4163
+Los Angeles County,California,6037,4057.88,11,21559,9186,11161,165,279,83331,496,4382
+Los Angeles County,California,6037,4057.88,12,21383,9330,11778,169,288,83778,484,4672
+Los Angeles County,California,6037,4057.88,13,20879,9210,11114,158,305,80925,469,4613
+Los Angeles County,California,6037,4057.88,14,21282,9281,11038,168,271,81057,512,4891
+Madera County,California,6039,2137.07,0,627,42,43,39,0,1563,0,55
+Madera County,California,6039,2137.07,1,613,52,28,27,3,1649,1,46
+Madera County,California,6039,2137.07,2,590,36,40,25,0,1535,4,42
+Madera County,California,6039,2137.07,3,607,40,32,23,0,1579,5,60
+Madera County,California,6039,2137.07,4,578,47,45,20,0,1617,5,37
+Madera County,California,6039,2137.07,5,579,42,31,19,0,1618,0,56
+Madera County,California,6039,2137.07,6,538,45,37,24,0,1668,0,52
+Madera County,California,6039,2137.07,7,570,39,26,20,0,1587,5,51
+Madera County,California,6039,2137.07,8,501,45,35,19,0,1670,1,49
+Madera County,California,6039,2137.07,9,521,39,33,22,0,1748,2,64
+Madera County,California,6039,2137.07,10,499,33,36,16,0,1813,3,46
+Madera County,California,6039,2137.07,11,450,33,31,19,0,1870,2,55
+Madera County,California,6039,2137.07,12,463,37,31,18,0,1815,2,47
+Madera County,California,6039,2137.07,13,435,31,31,20,0,1793,6,48
+Madera County,California,6039,2137.07,14,442,34,29,22,1,1720,5,47
+Marin County,California,6041,520.31,0,1929,79,136,12,5,513,13,176
+Marin County,California,6041,520.31,1,1853,79,116,7,7,547,13,190
+Marin County,California,6041,520.31,2,1923,56,126,9,5,514,14,160
+Marin County,California,6041,520.31,3,1861,54,148,2,8,548,7,174
+Marin County,California,6041,520.31,4,1955,60,108,7,3,608,24,192
+Marin County,California,6041,520.31,5,1948,55,124,7,3,683,14,207
+Marin County,California,6041,520.31,6,1997,55,157,3,2,596,14,190
+Marin County,California,6041,520.31,7,2020,65,122,2,8,695,14,233
+Marin County,California,6041,520.31,8,1963,62,153,4,7,707,19,213
+Marin County,California,6041,520.31,9,1978,54,163,1,2,693,18,230
+Marin County,California,6041,520.31,10,1893,56,126,6,2,673,14,206
+Marin County,California,6041,520.31,11,1727,61,118,4,2,735,16,215
+Marin County,California,6041,520.31,12,1677,63,145,7,6,801,19,204
+Marin County,California,6041,520.31,13,1538,43,126,1,4,720,17,204
+Marin County,California,6041,520.31,14,1429,41,107,2,0,734,14,176
+Mariposa County,California,6043,1448.82,0,154,5,2,6,0,28,0,10
+Mariposa County,California,6043,1448.82,1,163,1,3,3,1,32,1,10
+Mariposa County,California,6043,1448.82,2,144,0,0,7,1,39,0,8
+Mariposa County,California,6043,1448.82,3,131,1,3,5,0,23,3,8
+Mariposa County,California,6043,1448.82,4,147,0,2,3,0,37,0,6
+Mariposa County,California,6043,1448.82,5,120,0,3,7,1,28,0,5
+Mariposa County,California,6043,1448.82,6,124,0,2,6,0,32,0,6
+Mariposa County,California,6043,1448.82,7,131,1,0,7,1,27,0,6
+Mariposa County,California,6043,1448.82,8,106,0,3,5,0,20,0,7
+Mariposa County,California,6043,1448.82,9,127,0,2,6,0,28,0,10
+Mariposa County,California,6043,1448.82,10,110,1,1,7,1,35,0,11
+Mariposa County,California,6043,1448.82,11,104,1,1,4,1,27,0,9
+Mariposa County,California,6043,1448.82,12,101,0,3,4,0,31,0,9
+Mariposa County,California,6043,1448.82,13,110,0,0,5,0,33,0,8
+Mariposa County,California,6043,1448.82,14,122,0,1,4,0,26,0,5
+Mendocino County,California,6045,3506.34,0,561,5,23,67,0,366,0,53
+Mendocino County,California,6045,3506.34,1,529,9,21,67,0,385,1,55
+Mendocino County,California,6045,3506.34,2,548,5,18,53,3,369,1,51
+Mendocino County,California,6045,3506.34,3,577,9,13,67,0,398,1,58
+Mendocino County,California,6045,3506.34,4,519,2,15,52,1,435,4,49
+Mendocino County,California,6045,3506.34,5,516,9,10,64,0,415,2,41
+Mendocino County,California,6045,3506.34,6,511,4,18,58,2,413,0,45
+Mendocino County,California,6045,3506.34,7,484,6,10,60,1,422,3,51
+Mendocino County,California,6045,3506.34,8,493,4,19,57,1,433,4,63
+Mendocino County,California,6045,3506.34,9,498,7,11,55,1,418,2,48
+Mendocino County,California,6045,3506.34,10,481,3,9,69,1,484,3,52
+Mendocino County,California,6045,3506.34,11,497,3,7,48,1,447,3,61
+Mendocino County,California,6045,3506.34,12,508,6,7,62,0,449,4,54
+Mendocino County,California,6045,3506.34,13,490,4,7,47,1,443,4,49
+Mendocino County,California,6045,3506.34,14,483,4,11,46,1,438,0,60
+Merced County,California,6047,1934.97,0,1021,138,376,15,4,3026,8,122
+Merced County,California,6047,1934.97,1,931,134,346,9,8,2826,8,91
+Merced County,California,6047,1934.97,2,867,143,327,10,8,2892,9,100
+Merced County,California,6047,1934.97,3,926,119,297,11,5,2805,17,87
+Merced County,California,6047,1934.97,4,909,109,276,10,9,2988,12,116
+Merced County,California,6047,1934.97,5,931,102,298,11,5,3098,7,95
+Merced County,California,6047,1934.97,6,885,129,273,10,8,2963,11,94
+Merced County,California,6047,1934.97,7,838,115,256,18,5,3037,14,106
+Merced County,California,6047,1934.97,8,883,116,279,11,2,3048,4,110
+Merced County,California,6047,1934.97,9,830,117,282,16,10,3037,6,107
+Merced County,California,6047,1934.97,10,872,132,263,12,5,3097,11,110
+Merced County,California,6047,1934.97,11,871,135,248,11,2,3340,7,116
+Merced County,California,6047,1934.97,12,785,127,287,9,6,3096,3,127
+Merced County,California,6047,1934.97,13,834,120,253,14,7,2954,4,110
+Merced County,California,6047,1934.97,14,797,95,280,9,3,2962,6,106
+Modoc County,California,6049,3917.77,0,112,0,0,3,0,30,0,10
+Modoc County,California,6049,3917.77,1,54,1,0,5,0,34,0,7
+Modoc County,California,6049,3917.77,2,81,2,0,7,1,37,0,2
+Modoc County,California,6049,3917.77,3,73,0,0,4,0,27,0,2
+Modoc County,California,6049,3917.77,4,78,2,0,5,1,21,0,3
+Modoc County,California,6049,3917.77,5,94,1,1,2,0,20,0,2
+Modoc County,California,6049,3917.77,6,73,1,1,5,0,26,0,2
+Modoc County,California,6049,3917.77,7,75,0,0,2,0,35,0,4
+Modoc County,California,6049,3917.77,8,84,0,0,2,1,36,0,2
+Modoc County,California,6049,3917.77,9,58,0,0,1,0,31,0,5
+Modoc County,California,6049,3917.77,10,86,0,0,1,0,23,0,6
+Modoc County,California,6049,3917.77,11,69,0,0,7,0,34,0,2
+Modoc County,California,6049,3917.77,12,74,0,1,2,0,21,0,1
+Modoc County,California,6049,3917.77,13,71,0,1,5,0,25,0,4
+Modoc County,California,6049,3917.77,14,76,0,2,5,0,27,0,2
+Mono County,California,6051,3048.98,0,83,1,5,3,0,69,0,7
+Mono County,California,6051,3048.98,1,85,2,1,3,0,64,2,7
+Mono County,California,6051,3048.98,2,69,0,5,7,0,71,0,5
+Mono County,California,6051,3048.98,3,67,1,2,3,0,68,1,11
+Mono County,California,6051,3048.98,4,63,0,3,2,0,58,0,2
+Mono County,California,6051,3048.98,5,74,0,1,1,0,88,0,4
+Mono County,California,6051,3048.98,6,88,0,0,2,1,86,0,4
+Mono County,California,6051,3048.98,7,66,0,0,3,0,59,1,8
+Mono County,California,6051,3048.98,8,60,0,0,5,0,98,1,2
+Mono County,California,6051,3048.98,9,81,1,0,3,0,84,0,7
+Mono County,California,6051,3048.98,10,78,0,2,3,0,94,1,4
+Mono County,California,6051,3048.98,11,87,1,1,4,0,81,0,4
+Mono County,California,6051,3048.98,12,68,0,0,1,0,97,1,5
+Mono County,California,6051,3048.98,13,83,0,2,5,0,95,1,5
+Mono County,California,6051,3048.98,14,77,0,0,1,0,82,2,8
+Monterey County,California,6053,3280.6,0,1240,111,266,16,22,4045,15,201
+Monterey County,California,6053,3280.6,1,1154,89,243,17,22,3969,13,221
+Monterey County,California,6053,3280.6,2,1131,89,227,19,23,4083,11,243
+Monterey County,California,6053,3280.6,3,1070,93,247,14,20,4080,13,190
+Monterey County,California,6053,3280.6,4,1096,89,231,6,19,4179,13,207
+Monterey County,California,6053,3280.6,5,1023,95,231,15,24,4238,10,203
+Monterey County,California,6053,3280.6,6,1097,90,201,14,27,4443,11,207
+Monterey County,California,6053,3280.6,7,1033,99,227,12,21,4402,10,172
+Monterey County,California,6053,3280.6,8,1070,95,218,9,15,4614,12,227
+Monterey County,California,6053,3280.6,9,1061,75,218,7,18,4811,13,209
+Monterey County,California,6053,3280.6,10,1055,60,187,10,25,4782,14,213
+Monterey County,California,6053,3280.6,11,1015,76,191,11,14,5137,6,222
+Monterey County,California,6053,3280.6,12,1011,78,199,10,16,5162,14,226
+Monterey County,California,6053,3280.6,13,1015,78,173,15,17,4977,5,207
+Monterey County,California,6053,3280.6,14,990,73,160,6,13,4848,7,229
+Napa County,California,6055,748.36,0,756,40,124,11,4,800,2,73
+Napa County,California,6055,748.36,1,775,39,131,7,5,815,3,81
+Napa County,California,6055,748.36,2,764,32,130,8,4,849,5,79
+Napa County,California,6055,748.36,3,677,36,107,12,2,863,5,55
+Napa County,California,6055,748.36,4,690,23,87,5,8,854,3,76
+Napa County,California,6055,748.36,5,696,37,117,4,4,836,2,63
+Napa County,California,6055,748.36,6,659,18,90,8,5,845,2,58
+Napa County,California,6055,748.36,7,631,30,112,2,4,843,3,72
+Napa County,California,6055,748.36,8,647,26,124,4,4,836,3,79
+Napa County,California,6055,748.36,9,630,25,101,3,4,888,2,59
+Napa County,California,6055,748.36,10,630,22,111,0,3,905,2,64
+Napa County,California,6055,748.36,11,564,34,90,0,4,889,1,71
+Napa County,California,6055,748.36,12,514,18,101,2,3,867,3,66
+Napa County,California,6055,748.36,13,551,17,108,2,2,861,4,58
+Napa County,California,6055,748.36,14,544,18,96,5,3,826,3,69
+Nevada County,California,6057,957.77,0,981,7,11,14,3,154,3,64
+Nevada County,California,6057,957.77,1,950,6,8,10,3,152,1,53
+Nevada County,California,6057,957.77,2,901,3,11,7,2,147,1,56
+Nevada County,California,6057,957.77,3,886,6,6,9,3,161,2,60
+Nevada County,California,6057,957.77,4,897,6,8,14,3,137,1,51
+Nevada County,California,6057,957.77,5,794,4,19,11,0,195,2,42
+Nevada County,California,6057,957.77,6,791,2,11,10,1,157,3,32
+Nevada County,California,6057,957.77,7,765,3,8,9,0,164,2,50
+Nevada County,California,6057,957.77,8,716,6,11,9,0,158,1,32
+Nevada County,California,6057,957.77,9,729,3,6,7,2,152,1,42
+Nevada County,California,6057,957.77,10,690,0,10,11,0,170,4,34
+Nevada County,California,6057,957.77,11,683,3,7,11,2,133,3,40
+Nevada County,California,6057,957.77,12,651,3,11,9,1,174,0,37
+Nevada County,California,6057,957.77,13,647,4,6,9,0,168,0,51
+Nevada County,California,6057,957.77,14,562,4,5,6,0,159,2,55
+Orange County,California,6059,790.57,0,14764,578,6697,74,129,19261,93,1673
+Orange County,California,6059,790.57,1,14576,553,6515,73,144,19188,96,1601
+Orange County,California,6059,790.57,2,14122,546,6343,76,111,18675,117,1676
+Orange County,California,6059,790.57,3,13747,542,5944,64,113,18781,111,1687
+Orange County,California,6059,790.57,4,13639,576,6243,68,122,19064,107,1706
+Orange County,California,6059,790.57,5,13068,499,6640,48,96,18978,87,1719
+Orange County,California,6059,790.57,6,12584,490,5964,61,120,18184,97,1660
+Orange County,California,6059,790.57,7,12490,487,6119,62,88,18516,92,1743
+Orange County,California,6059,790.57,8,12209,467,6309,46,96,18425,94,1704
+Orange County,California,6059,790.57,9,12067,424,6103,54,102,18868,95,1814
+Orange County,California,6059,790.57,10,11357,415,5971,56,76,19161,97,1876
+Orange County,California,6059,790.57,11,11169,424,5986,41,101,19656,109,1835
+Orange County,California,6059,790.57,12,10894,430,6168,69,103,19632,103,1864
+Orange County,California,6059,790.57,13,10170,386,5315,51,105,18963,122,1800
+Orange County,California,6059,790.57,14,10287,422,5318,58,76,19029,105,1891
+Placer County,California,6061,1407.01,0,3532,64,275,27,4,883,9,248
+Placer County,California,6061,1407.01,1,3549,71,292,41,6,834,11,296
+Placer County,California,6061,1407.01,2,3337,70,299,24,10,841,9,297
+Placer County,California,6061,1407.01,3,3313,56,271,32,12,974,12,294
+Placer County,California,6061,1407.01,4,3347,79,292,22,16,948,11,278
+Placer County,California,6061,1407.01,5,3282,67,289,28,10,909,14,287
+Placer County,California,6061,1407.01,6,3139,48,305,27,8,900,13,298
+Placer County,California,6061,1407.01,7,3120,59,297,20,3,918,18,295
+Placer County,California,6061,1407.01,8,2976,53,281,29,4,963,7,309
+Placer County,California,6061,1407.01,9,3039,50,287,19,10,928,15,280
+Placer County,California,6061,1407.01,10,2897,52,268,21,14,921,12,310
+Placer County,California,6061,1407.01,11,2734,50,262,27,9,919,5,286
+Placer County,California,6061,1407.01,12,2680,32,274,13,7,887,19,300
+Placer County,California,6061,1407.01,13,2518,45,243,13,4,893,12,285
+Placer County,California,6061,1407.01,14,2425,33,263,15,3,821,11,268
+Plumas County,California,6063,2553.04,0,159,4,2,9,0,32,2,8
+Plumas County,California,6063,2553.04,1,161,3,1,8,0,25,0,16
+Plumas County,California,6063,2553.04,2,151,1,1,18,0,28,0,13
+Plumas County,California,6063,2553.04,3,125,1,2,11,0,29,1,9
+Plumas County,California,6063,2553.04,4,152,1,0,7,0,27,0,15
+Plumas County,California,6063,2553.04,5,135,2,4,5,0,35,0,14
+Plumas County,California,6063,2553.04,6,122,0,0,5,0,17,0,9
+Plumas County,California,6063,2553.04,7,165,1,1,7,0,29,0,7
+Plumas County,California,6063,2553.04,8,134,4,1,6,0,32,0,14
+Plumas County,California,6063,2553.04,9,168,2,0,5,0,30,0,14
+Plumas County,California,6063,2553.04,10,116,3,1,1,0,19,0,12
+Plumas County,California,6063,2553.04,11,135,1,3,6,0,41,0,11
+Plumas County,California,6063,2553.04,12,134,1,2,3,0,28,0,12
+Plumas County,California,6063,2553.04,13,131,2,1,0,0,31,0,10
+Plumas County,California,6063,2553.04,14,123,5,0,5,0,28,1,17
+Riverside County,California,6065,7206.48,0,9747,2426,1692,190,118,21186,60,1248
+Riverside County,California,6065,7206.48,1,9511,2212,1610,180,100,20872,64,1191
+Riverside County,California,6065,7206.48,2,9071,2175,1632,153,90,20813,64,1261
+Riverside County,California,6065,7206.48,3,9193,2084,1488,162,96,20632,65,1232
+Riverside County,California,6065,7206.48,4,9049,2020,1520,137,90,20836,60,1314
+Riverside County,California,6065,7206.48,5,8754,1978,1598,159,88,20744,58,1264
+Riverside County,California,6065,7206.48,6,8342,1808,1405,134,79,20018,73,1267
+Riverside County,California,6065,7206.48,7,8227,1833,1487,156,94,19985,66,1234
+Riverside County,California,6065,7206.48,8,8459,1674,1474,155,73,19954,84,1233
+Riverside County,California,6065,7206.48,9,8104,1712,1504,147,89,20215,71,1266
+Riverside County,California,6065,7206.48,10,8042,1733,1446,147,86,20377,76,1289
+Riverside County,California,6065,7206.48,11,8125,1718,1473,152,86,20784,59,1302
+Riverside County,California,6065,7206.48,12,7946,1755,1420,152,102,20618,85,1364
+Riverside County,California,6065,7206.48,13,7674,1726,1240,146,67,19340,72,1272
+Riverside County,California,6065,7206.48,14,7171,1471,1242,149,78,19093,69,1291
+Sacramento County,California,6067,964.64,0,7641,2404,2977,108,208,5743,42,1405
+Sacramento County,California,6067,964.64,1,7394,2248,2922,101,181,5915,52,1370
+Sacramento County,California,6067,964.64,2,7178,2335,2808,96,175,5805,55,1433
+Sacramento County,California,6067,964.64,3,7040,2247,2650,92,167,5901,61,1400
+Sacramento County,California,6067,964.64,4,6999,2191,2587,97,181,6039,60,1512
+Sacramento County,California,6067,964.64,5,6907,2121,2853,95,171,5939,55,1473
+Sacramento County,California,6067,964.64,6,6816,2068,2650,75,177,6027,53,1488
+Sacramento County,California,6067,964.64,7,6730,1987,2681,84,203,6205,65,1413
+Sacramento County,California,6067,964.64,8,6820,1983,2728,85,162,6231,66,1589
+Sacramento County,California,6067,964.64,9,6803,1951,2814,76,212,6534,61,1661
+Sacramento County,California,6067,964.64,10,6929,2015,2789,94,184,6676,53,1750
+Sacramento County,California,6067,964.64,11,6896,2056,2761,94,217,6966,66,1696
+Sacramento County,California,6067,964.64,12,6885,2020,2765,100,218,6728,69,1834
+Sacramento County,California,6067,964.64,13,6567,1971,2645,75,195,6569,53,1801
+Sacramento County,California,6067,964.64,14,6470,1874,2442,78,202,6424,47,1789
+San Benito County,California,6069,1388.71,0,302,8,21,4,0,618,0,25
+San Benito County,California,6069,1388.71,1,246,5,24,3,1,617,3,29
+San Benito County,California,6069,1388.71,2,294,4,14,5,0,606,2,32
+San Benito County,California,6069,1388.71,3,244,7,17,2,2,618,2,21
+San Benito County,California,6069,1388.71,4,240,9,16,7,0,638,2,21
+San Benito County,California,6069,1388.71,5,242,6,25,4,1,602,0,29
+San Benito County,California,6069,1388.71,6,219,6,14,6,1,592,2,25
+San Benito County,California,6069,1388.71,7,201,5,12,5,0,597,0,24
+San Benito County,California,6069,1388.71,8,216,6,12,7,0,606,2,19
+San Benito County,California,6069,1388.71,9,191,3,13,1,0,612,0,20
+San Benito County,California,6069,1388.71,10,184,7,15,6,0,639,2,22
+San Benito County,California,6069,1388.71,11,220,4,12,3,0,613,3,14
+San Benito County,California,6069,1388.71,12,167,2,9,3,0,637,1,14
+San Benito County,California,6069,1388.71,13,159,2,7,4,0,585,0,12
+San Benito County,California,6069,1388.71,14,170,1,5,0,0,558,1,11
+San Bernardino County,California,6071,20056.94,0,7934,3027,1609,118,120,21096,89,1067
+San Bernardino County,California,6071,20056.94,1,7631,3031,1567,104,125,20746,73,1023
+San Bernardino County,California,6071,20056.94,2,7202,2838,1583,111,109,20297,96,1025
+San Bernardino County,California,6071,20056.94,3,7114,2803,1445,83,103,20293,100,1048
+San Bernardino County,California,6071,20056.94,4,7098,2753,1509,92,99,20470,79,1082
+San Bernardino County,California,6071,20056.94,5,6917,2673,1617,96,124,19828,79,1017
+San Bernardino County,California,6071,20056.94,6,6517,2570,1454,78,94,19337,65,998
+San Bernardino County,California,6071,20056.94,7,6557,2489,1422,96,90,19669,70,985
+San Bernardino County,California,6071,20056.94,8,6495,2384,1394,76,84,19587,92,1077
+San Bernardino County,California,6071,20056.94,9,6364,2423,1418,82,103,19811,56,1080
+San Bernardino County,California,6071,20056.94,10,6622,2525,1458,88,90,20220,67,1117
+San Bernardino County,California,6071,20056.94,11,6679,2517,1386,78,99,20326,72,1165
+San Bernardino County,California,6071,20056.94,12,6754,2561,1454,84,81,20430,55,1122
+San Bernardino County,California,6071,20056.94,13,6536,2434,1300,67,66,19701,72,1148
+San Bernardino County,California,6071,20056.94,14,6401,2349,1277,77,80,18992,77,1163
+San Diego County,California,6073,4206.63,0,14162,2104,3742,174,182,18622,101,2110
+San Diego County,California,6073,4206.63,1,13898,2008,3602,173,170,18042,96,1975
+San Diego County,California,6073,4206.63,2,13530,1953,3547,168,166,17733,106,2131
+San Diego County,California,6073,4206.63,3,13316,1936,3475,188,158,17723,119,2036
+San Diego County,California,6073,4206.63,4,13391,1849,3584,168,143,17919,102,2114
+San Diego County,California,6073,4206.63,5,13019,1787,3704,181,157,17805,121,2143
+San Diego County,California,6073,4206.63,6,12704,1776,3346,149,144,17505,100,2207
+San Diego County,California,6073,4206.63,7,12886,1788,3495,183,151,17559,113,2259
+San Diego County,California,6073,4206.63,8,13117,1710,3633,162,137,17762,113,2445
+San Diego County,California,6073,4206.63,9,13191,1775,3614,179,169,18063,124,2553
+San Diego County,California,6073,4206.63,10,13264,1861,3470,147,153,18327,132,2626
+San Diego County,California,6073,4206.63,11,13798,1893,3551,173,138,18894,112,2617
+San Diego County,California,6073,4206.63,12,13380,1949,3586,157,163,19130,118,2671
+San Diego County,California,6073,4206.63,13,13573,1871,3297,198,140,18484,109,2767
+San Diego County,California,6073,4206.63,14,13723,1869,3310,199,129,18580,106,2758
+San Francisco County,California,6075,46.87,0,1041,465,2306,8,51,1154,36,273
+San Francisco County,California,6075,46.87,1,1053,411,2329,4,40,1221,26,336
+San Francisco County,California,6075,46.87,2,1120,396,2078,11,48,1148,28,309
+San Francisco County,California,6075,46.87,3,1195,408,1923,9,49,1169,28,315
+San Francisco County,California,6075,46.87,4,1264,411,1935,8,39,1286,19,349
+San Francisco County,California,6075,46.87,5,1371,389,2085,7,44,1237,33,424
+San Francisco County,California,6075,46.87,6,1388,423,1662,5,55,1243,28,387
+San Francisco County,California,6075,46.87,7,1550,438,1829,7,45,1308,37,466
+San Francisco County,California,6075,46.87,8,1755,369,1768,12,47,1369,32,512
+San Francisco County,California,6075,46.87,9,1784,363,1988,8,40,1354,42,558
+San Francisco County,California,6075,46.87,10,1895,382,1798,12,30,1516,34,542
+San Francisco County,California,6075,46.87,11,2086,426,1864,13,35,1481,47,633
+San Francisco County,California,6075,46.87,12,2438,415,1861,8,35,1673,51,718
+San Francisco County,California,6075,46.87,13,2631,371,1849,9,46,1637,48,800
+San Francisco County,California,6075,46.87,14,3093,360,1772,10,33,1652,43,856
+San Joaquin County,California,6077,1391.32,0,2982,832,1527,54,49,5410,19,588
+San Joaquin County,California,6077,1391.32,1,2824,934,1471,40,43,5390,20,548
+San Joaquin County,California,6077,1391.32,2,2775,852,1471,40,56,5417,18,544
+San Joaquin County,California,6077,1391.32,3,2729,829,1431,45,58,5488,26,561
+San Joaquin County,California,6077,1391.32,4,2632,794,1456,39,44,5568,30,531
+San Joaquin County,California,6077,1391.32,5,2613,780,1456,48,38,5712,25,536
+San Joaquin County,California,6077,1391.32,6,2449,775,1428,39,58,5639,24,574
+San Joaquin County,California,6077,1391.32,7,2350,740,1360,33,46,5646,24,569
+San Joaquin County,California,6077,1391.32,8,2306,725,1444,32,51,5603,37,535
+San Joaquin County,California,6077,1391.32,9,2331,754,1486,38,46,5830,24,606
+San Joaquin County,California,6077,1391.32,10,2385,770,1393,30,49,5989,35,567
+San Joaquin County,California,6077,1391.32,11,2316,747,1387,28,37,6032,32,625
+San Joaquin County,California,6077,1391.32,12,2177,750,1301,44,39,5997,24,592
+San Joaquin County,California,6077,1391.32,13,2229,678,1278,24,37,5575,19,583
+San Joaquin County,California,6077,1391.32,14,2064,687,1271,35,37,5769,33,563
+San Luis Obispo County,California,6079,3298.57,0,1780,30,68,15,3,942,6,120
+San Luis Obispo County,California,6079,3298.57,1,1732,33,65,16,3,953,5,104
+San Luis Obispo County,California,6079,3298.57,2,1660,24,58,10,2,922,6,109
+San Luis Obispo County,California,6079,3298.57,3,1614,31,69,15,3,976,5,103
+San Luis Obispo County,California,6079,3298.57,4,1558,17,57,11,3,957,4,112
+San Luis Obispo County,California,6079,3298.57,5,1573,26,83,14,5,1016,5,92
+San Luis Obispo County,California,6079,3298.57,6,1530,20,58,19,2,929,2,109
+San Luis Obispo County,California,6079,3298.57,7,1501,21,76,12,8,995,8,122
+San Luis Obispo County,California,6079,3298.57,8,1505,21,80,10,6,1022,4,94
+San Luis Obispo County,California,6079,3298.57,9,1542,17,77,13,4,1027,2,123
+San Luis Obispo County,California,6079,3298.57,10,1444,28,53,12,1,1038,5,124
+San Luis Obispo County,California,6079,3298.57,11,1474,26,58,5,5,1100,6,119
+San Luis Obispo County,California,6079,3298.57,12,1453,28,47,10,4,1037,3,106
+San Luis Obispo County,California,6079,3298.57,13,1369,24,48,7,1,985,2,124
+San Luis Obispo County,California,6079,3298.57,14,1360,16,44,7,3,1046,8,113
+San Mateo County,California,6081,448.41,0,2886,205,1825,15,143,2858,35,552
+San Mateo County,California,6081,448.41,1,2881,177,1803,14,137,2863,53,527
+San Mateo County,California,6081,448.41,2,2850,181,1755,10,161,2818,43,528
+San Mateo County,California,6081,448.41,3,2847,170,1792,13,141,2862,49,568
+San Mateo County,California,6081,448.41,4,2968,192,1786,16,156,2954,46,583
+San Mateo County,California,6081,448.41,5,2993,175,1877,4,142,2962,47,575
+San Mateo County,California,6081,448.41,6,2933,180,1786,14,164,3053,27,594
+San Mateo County,California,6081,448.41,7,3045,172,1826,11,155,3000,69,644
+San Mateo County,California,6081,448.41,8,3051,153,1868,8,136,3096,62,710
+San Mateo County,California,6081,448.41,9,3030,142,1931,12,151,3103,50,778
+San Mateo County,California,6081,448.41,10,2977,185,1933,9,148,3313,47,751
+San Mateo County,California,6081,448.41,11,2897,139,1973,10,136,3361,43,748
+San Mateo County,California,6081,448.41,12,2793,174,2052,16,128,3340,59,744
+San Mateo County,California,6081,448.41,13,2718,143,1938,8,156,3335,52,772
+San Mateo County,California,6081,448.41,14,2719,133,2011,8,145,3360,71,815
+Santa Barbara County,California,6083,2735.09,0,1871,78,154,19,6,3313,13,155
+Santa Barbara County,California,6083,2735.09,1,1700,62,180,13,8,3087,13,182
+Santa Barbara County,California,6083,2735.09,2,1601,72,173,13,8,3142,10,170
+Santa Barbara County,California,6083,2735.09,3,1675,77,153,14,11,3234,9,165
+Santa Barbara County,California,6083,2735.09,4,1629,81,160,22,7,3178,14,154
+Santa Barbara County,California,6083,2735.09,5,1603,63,163,27,4,3348,10,170
+Santa Barbara County,California,6083,2735.09,6,1487,49,128,20,7,3166,13,136
+Santa Barbara County,California,6083,2735.09,7,1495,59,150,23,4,3228,14,172
+Santa Barbara County,California,6083,2735.09,8,1543,60,149,15,6,3258,11,171
+Santa Barbara County,California,6083,2735.09,9,1523,67,175,23,4,3571,10,178
+Santa Barbara County,California,6083,2735.09,10,1484,56,130,21,6,3604,9,192
+Santa Barbara County,California,6083,2735.09,11,1485,52,122,19,7,3617,13,198
+Santa Barbara County,California,6083,2735.09,12,1421,69,121,24,5,3738,15,161
+Santa Barbara County,California,6083,2735.09,13,1395,47,150,11,3,3612,8,202
+Santa Barbara County,California,6083,2735.09,14,1341,46,136,19,6,3595,17,193
+Santa Clara County,California,6085,1290.1,0,6194,508,6481,54,87,7980,67,1173
+Santa Clara County,California,6085,1290.1,1,6081,464,6633,44,71,8083,66,1115
+Santa Clara County,California,6085,1290.1,2,5897,475,6641,31,72,8181,53,1212
+Santa Clara County,California,6085,1290.1,3,5887,508,6548,43,82,8388,69,1285
+Santa Clara County,California,6085,1290.1,4,5832,507,6911,49,82,8329,72,1315
+Santa Clara County,California,6085,1290.1,5,5978,469,7588,37,81,8750,78,1316
+Santa Clara County,California,6085,1290.1,6,5660,460,7183,51,66,8649,89,1338
+Santa Clara County,California,6085,1290.1,7,5811,428,7718,40,65,8793,83,1470
+Santa Clara County,California,6085,1290.1,8,5731,408,8078,51,80,8992,89,1505
+Santa Clara County,California,6085,1290.1,9,5612,441,8015,57,86,8897,71,1614
+Santa Clara County,California,6085,1290.1,10,5761,448,7834,60,75,9232,92,1601
+Santa Clara County,California,6085,1290.1,11,5500,483,8091,58,90,9623,92,1663
+Santa Clara County,California,6085,1290.1,12,5335,492,8120,61,85,9662,95,1647
+Santa Clara County,California,6085,1290.1,13,4937,453,7839,69,73,9374,81,1687
+Santa Clara County,California,6085,1290.1,14,4942,425,7301,74,64,9243,75,1627
+Santa Cruz County,California,6087,445.17,0,1427,26,71,7,6,1471,10,132
+Santa Cruz County,California,6087,445.17,1,1384,27,76,15,3,1409,8,127
+Santa Cruz County,California,6087,445.17,2,1407,24,57,11,2,1463,11,155
+Santa Cruz County,California,6087,445.17,3,1338,25,47,8,3,1459,5,135
+Santa Cruz County,California,6087,445.17,4,1307,28,60,10,0,1460,11,122
+Santa Cruz County,California,6087,445.17,5,1355,15,60,9,1,1465,8,138
+Santa Cruz County,California,6087,445.17,6,1263,19,70,7,1,1503,10,143
+Santa Cruz County,California,6087,445.17,7,1189,20,63,11,1,1492,14,152
+Santa Cruz County,California,6087,445.17,8,1294,11,44,12,1,1584,11,133
+Santa Cruz County,California,6087,445.17,9,1133,22,53,2,0,1613,17,132
+Santa Cruz County,California,6087,445.17,10,1140,16,63,8,2,1572,8,146
+Santa Cruz County,California,6087,445.17,11,1193,25,66,8,2,1735,13,141
+Santa Cruz County,California,6087,445.17,12,1141,14,63,8,0,1668,18,145
+Santa Cruz County,California,6087,445.17,13,1109,24,41,4,3,1677,9,162
+Santa Cruz County,California,6087,445.17,14,1070,19,42,6,2,1543,16,123
+Shasta County,California,6089,3775.4,0,1790,41,64,77,3,289,3,133
+Shasta County,California,6089,3775.4,1,1684,31,63,70,2,336,5,146
+Shasta County,California,6089,3775.4,2,1558,21,50,84,2,314,2,128
+Shasta County,California,6089,3775.4,3,1621,30,63,74,3,326,2,115
+Shasta County,California,6089,3775.4,4,1626,35,55,69,1,333,2,143
+Shasta County,California,6089,3775.4,5,1568,17,48,67,4,311,2,141
+Shasta County,California,6089,3775.4,6,1525,22,61,65,2,328,3,148
+Shasta County,California,6089,3775.4,7,1489,14,77,57,2,309,5,134
+Shasta County,California,6089,3775.4,8,1516,16,52,47,5,309,4,144
+Shasta County,California,6089,3775.4,9,1469,20,59,50,3,329,3,112
+Shasta County,California,6089,3775.4,10,1454,27,57,67,4,331,6,147
+Shasta County,California,6089,3775.4,11,1471,25,50,64,4,332,3,124
+Shasta County,California,6089,3775.4,12,1479,25,61,44,1,337,3,154
+Shasta County,California,6089,3775.4,13,1425,24,46,56,3,299,4,156
+Shasta County,California,6089,3775.4,14,1404,20,37,61,0,304,2,157
+Sierra County,California,6091,953.21,0,29,0,0,0,0,8,0,0
+Sierra County,California,6091,953.21,1,27,0,0,0,0,5,0,1
+Sierra County,California,6091,953.21,2,27,0,0,0,0,6,0,1
+Sierra County,California,6091,953.21,3,23,0,0,0,0,4,0,0
+Sierra County,California,6091,953.21,4,20,0,0,0,0,5,0,0
+Sierra County,California,6091,953.21,5,30,0,0,0,0,2,0,0
+Sierra County,California,6091,953.21,6,19,0,0,1,0,4,0,1
+Sierra County,California,6091,953.21,7,25,0,0,0,0,6,0,1
+Sierra County,California,6091,953.21,8,20,0,0,0,0,1,0,2
+Sierra County,California,6091,953.21,9,16,0,0,0,0,2,0,1
+Sierra County,California,6091,953.21,10,26,0,0,0,0,3,0,3
+Sierra County,California,6091,953.21,11,18,0,0,1,0,3,0,1
+Sierra County,California,6091,953.21,12,27,0,0,1,0,2,0,4
+Sierra County,California,6091,953.21,13,16,0,0,1,0,3,0,3
+Sierra County,California,6091,953.21,14,24,0,0,1,0,9,0,1
+Siskiyou County,California,6093,6277.89,0,383,5,6,22,1,90,2,41
+Siskiyou County,California,6093,6277.89,1,381,4,5,23,1,118,1,31
+Siskiyou County,California,6093,6277.89,2,347,8,6,17,1,86,1,36
+Siskiyou County,California,6093,6277.89,3,368,11,10,24,2,83,0,41
+Siskiyou County,California,6093,6277.89,4,377,9,6,27,1,101,3,47
+Siskiyou County,California,6093,6277.89,5,310,3,4,26,0,94,0,38
+Siskiyou County,California,6093,6277.89,6,312,7,7,18,4,89,0,32
+Siskiyou County,California,6093,6277.89,7,308,4,1,25,3,86,1,33
+Siskiyou County,California,6093,6277.89,8,343,4,4,25,3,88,1,38
+Siskiyou County,California,6093,6277.89,9,336,5,6,23,0,88,2,39
+Siskiyou County,California,6093,6277.89,10,303,6,3,21,0,88,1,51
+Siskiyou County,California,6093,6277.89,11,345,2,4,21,1,101,2,46
+Siskiyou County,California,6093,6277.89,12,323,5,6,25,2,101,2,46
+Siskiyou County,California,6093,6277.89,13,311,6,3,24,0,106,1,46
+Siskiyou County,California,6093,6277.89,14,296,6,0,25,1,96,0,47
+Solano County,California,6095,821.76,0,1808,824,705,18,45,1843,13,544
+Solano County,California,6095,821.76,1,1733,853,721,17,39,1894,21,502
+Solano County,California,6095,821.76,2,1667,875,729,20,54,1878,19,558
+Solano County,California,6095,821.76,3,1586,807,703,18,46,1975,14,571
+Solano County,California,6095,821.76,4,1520,819,689,6,46,1855,12,528
+Solano County,California,6095,821.76,5,1518,785,654,25,38,2002,21,575
+Solano County,California,6095,821.76,6,1515,762,662,20,38,1982,7,545
+Solano County,California,6095,821.76,7,1512,698,610,21,42,1999,12,553
+Solano County,California,6095,821.76,8,1449,682,619,23,28,1984,9,537
+Solano County,California,6095,821.76,9,1516,672,602,19,29,1960,11,575
+Solano County,California,6095,821.76,10,1461,646,617,15,27,2032,17,548
+Solano County,California,6095,821.76,11,1444,729,579,12,34,2134,12,567
+Solano County,California,6095,821.76,12,1480,643,580,16,22,2136,15,585
+Solano County,California,6095,821.76,13,1423,693,584,15,24,2025,12,585
+Solano County,California,6095,821.76,14,1361,629,521,22,34,1993,18,562
+Sonoma County,California,6097,1575.85,0,3179,94,213,49,18,2147,14,288
+Sonoma County,California,6097,1575.85,1,3171,96,235,41,27,2251,19,287
+Sonoma County,California,6097,1575.85,2,3069,95,188,53,12,2152,16,296
+Sonoma County,California,6097,1575.85,3,3010,77,199,52,18,2232,22,295
+Sonoma County,California,6097,1575.85,4,2866,65,208,39,18,2306,17,290
+Sonoma County,California,6097,1575.85,5,2865,77,199,41,9,2400,19,273
+Sonoma County,California,6097,1575.85,6,2761,67,188,45,15,2388,16,296
+Sonoma County,California,6097,1575.85,7,2748,86,176,37,17,2491,10,293
+Sonoma County,California,6097,1575.85,8,2741,71,203,64,9,2473,12,308
+Sonoma County,California,6097,1575.85,9,2569,91,196,39,13,2612,16,329
+Sonoma County,California,6097,1575.85,10,2593,63,180,39,12,2507,17,303
+Sonoma County,California,6097,1575.85,11,2529,75,173,42,12,2744,22,348
+Sonoma County,California,6097,1575.85,12,2371,78,156,39,20,2592,9,308
+Sonoma County,California,6097,1575.85,13,2289,59,155,32,13,2620,17,319
+Sonoma County,California,6097,1575.85,14,2321,65,144,49,17,2524,13,330
+Stanislaus County,California,6099,1494.83,0,3032,273,369,48,63,4460,13,322
+Stanislaus County,California,6099,1494.83,1,2898,233,393,42,42,4421,23,303
+Stanislaus County,California,6099,1494.83,2,2745,216,358,25,42,4452,12,309
+Stanislaus County,California,6099,1494.83,3,2771,225,345,45,32,4348,20,279
+Stanislaus County,California,6099,1494.83,4,2624,198,337,35,42,4560,23,298
+Stanislaus County,California,6099,1494.83,5,2587,168,353,30,41,4478,17,299
+Stanislaus County,California,6099,1494.83,6,2480,199,316,24,36,4659,14,285
+Stanislaus County,California,6099,1494.83,7,2546,200,327,24,36,4661,17,297
+Stanislaus County,California,6099,1494.83,8,2473,188,305,24,38,4571,15,281
+Stanislaus County,California,6099,1494.83,9,2483,184,343,22,34,4630,13,315
+Stanislaus County,California,6099,1494.83,10,2447,183,335,28,31,4674,14,317
+Stanislaus County,California,6099,1494.83,11,2460,162,327,22,31,4753,22,335
+Stanislaus County,California,6099,1494.83,12,2437,177,285,16,36,4839,13,345
+Stanislaus County,California,6099,1494.83,13,2364,164,257,25,37,4609,12,335
+Stanislaus County,California,6099,1494.83,14,2341,154,265,23,27,4515,21,341
+Sutter County,California,6101,602.41,0,639,29,196,19,2,509,4,70
+Sutter County,California,6101,602.41,1,589,16,189,13,5,532,4,68
+Sutter County,California,6101,602.41,2,551,31,176,14,4,526,2,92
+Sutter County,California,6101,602.41,3,574,21,207,11,5,545,3,81
+Sutter County,California,6101,602.41,4,556,14,184,15,4,565,4,77
+Sutter County,California,6101,602.41,5,600,27,182,14,4,596,0,58
+Sutter County,California,6101,602.41,6,551,20,191,10,2,559,4,57
+Sutter County,California,6101,602.41,7,553,19,187,16,1,599,1,89
+Sutter County,California,6101,602.41,8,554,21,189,21,3,568,3,75
+Sutter County,California,6101,602.41,9,556,19,202,11,3,661,1,65
+Sutter County,California,6101,602.41,10,524,28,180,9,1,587,3,80
+Sutter County,California,6101,602.41,11,548,19,199,15,0,665,5,88
+Sutter County,California,6101,602.41,12,498,24,145,13,1,671,4,70
+Sutter County,California,6101,602.41,13,496,22,179,10,3,612,2,85
+Sutter County,California,6101,602.41,14,467,23,173,10,4,604,3,83
+Tehama County,California,6103,2949.71,0,563,9,13,17,0,296,1,33
+Tehama County,California,6103,2949.71,1,520,7,11,18,0,302,0,33
+Tehama County,California,6103,2949.71,2,500,11,10,17,0,295,2,33
+Tehama County,California,6103,2949.71,3,519,7,8,16,0,306,1,29
+Tehama County,California,6103,2949.71,4,512,11,9,15,1,277,0,29
+Tehama County,California,6103,2949.71,5,513,6,8,22,1,289,3,37
+Tehama County,California,6103,2949.71,6,492,1,5,19,2,280,1,41
+Tehama County,California,6103,2949.71,7,485,6,11,6,0,301,1,34
+Tehama County,California,6103,2949.71,8,520,7,5,22,2,313,1,33
+Tehama County,California,6103,2949.71,9,481,4,10,19,0,324,0,21
+Tehama County,California,6103,2949.71,10,488,2,9,17,2,329,3,30
+Tehama County,California,6103,2949.71,11,515,3,8,18,0,352,2,44
+Tehama County,California,6103,2949.71,12,490,5,6,12,0,314,1,30
+Tehama County,California,6103,2949.71,13,472,3,5,11,0,316,0,31
+Tehama County,California,6103,2949.71,14,442,4,11,23,0,372,1,38
+Trinity County,California,6105,3179.25,0,125,2,1,11,2,20,0,11
+Trinity County,California,6105,3179.25,1,117,0,4,5,0,29,0,7
+Trinity County,California,6105,3179.25,2,100,1,1,7,1,19,0,8
+Trinity County,California,6105,3179.25,3,102,2,0,8,0,27,0,14
+Trinity County,California,6105,3179.25,4,90,0,3,3,0,15,0,9
+Trinity County,California,6105,3179.25,5,81,0,1,11,0,12,0,7
+Trinity County,California,6105,3179.25,6,108,0,0,5,0,17,1,16
+Trinity County,California,6105,3179.25,7,99,0,1,8,1,11,0,3
+Trinity County,California,6105,3179.25,8,91,0,1,7,0,16,1,6
+Trinity County,California,6105,3179.25,9,103,1,0,7,1,15,0,9
+Trinity County,California,6105,3179.25,10,107,0,1,9,0,26,1,13
+Trinity County,California,6105,3179.25,11,92,0,0,5,0,15,1,13
+Trinity County,California,6105,3179.25,12,85,0,2,6,0,14,1,8
+Trinity County,California,6105,3179.25,13,86,0,0,4,0,13,0,5
+Trinity County,California,6105,3179.25,14,78,0,0,3,0,24,0,6
+Tulare County,California,6107,4824.21,0,1788,108,223,60,8,5499,11,121
+Tulare County,California,6107,4824.21,1,1717,93,220,75,3,5595,19,119
+Tulare County,California,6107,4824.21,2,1695,83,169,57,5,5451,15,133
+Tulare County,California,6107,4824.21,3,1677,76,202,45,8,5585,9,139
+Tulare County,California,6107,4824.21,4,1636,98,191,67,4,5783,15,124
+Tulare County,California,6107,4824.21,5,1637,80,196,51,5,5925,12,136
+Tulare County,California,6107,4824.21,6,1555,83,211,50,6,5754,12,113
+Tulare County,California,6107,4824.21,7,1519,80,168,59,6,5897,19,149
+Tulare County,California,6107,4824.21,8,1574,74,218,45,5,5927,11,154
+Tulare County,California,6107,4824.21,9,1503,59,196,60,5,6230,13,153
+Tulare County,California,6107,4824.21,10,1522,66,183,43,8,6183,13,144
+Tulare County,California,6107,4824.21,11,1551,69,193,45,6,6283,9,167
+Tulare County,California,6107,4824.21,12,1372,67,182,45,8,6509,10,147
+Tulare County,California,6107,4824.21,13,1433,78,181,46,4,6149,19,165
+Tulare County,California,6107,4824.21,14,1377,77,194,33,6,6334,13,140
+Tuolumne County,California,6109,2220.88,0,500,1,7,13,2,73,1,27
+Tuolumne County,California,6109,2220.88,1,463,5,4,8,1,92,2,25
+Tuolumne County,California,6109,2220.88,2,435,1,9,19,1,98,4,31
+Tuolumne County,California,6109,2220.88,3,425,4,9,6,2,73,4,28
+Tuolumne County,California,6109,2220.88,4,406,6,7,13,0,91,0,24
+Tuolumne County,California,6109,2220.88,5,364,2,3,8,0,83,1,28
+Tuolumne County,California,6109,2220.88,6,364,4,6,4,0,74,0,30
+Tuolumne County,California,6109,2220.88,7,361,7,7,10,3,84,0,18
+Tuolumne County,California,6109,2220.88,8,398,2,7,8,1,81,0,19
+Tuolumne County,California,6109,2220.88,9,386,3,8,8,0,95,0,24
+Tuolumne County,California,6109,2220.88,10,366,4,2,10,3,87,1,22
+Tuolumne County,California,6109,2220.88,11,378,1,4,9,1,70,0,25
+Tuolumne County,California,6109,2220.88,12,322,3,7,10,1,84,0,22
+Tuolumne County,California,6109,2220.88,13,352,1,6,4,0,73,0,21
+Tuolumne County,California,6109,2220.88,14,330,2,1,10,0,76,0,20
+Ventura County,California,6111,1843.13,0,5033,178,671,29,19,6148,32,506
+Ventura County,California,6111,1843.13,1,4912,159,656,26,14,5961,31,471
+Ventura County,California,6111,1843.13,2,4602,163,671,26,13,5874,30,488
+Ventura County,California,6111,1843.13,3,4509,178,603,23,15,6059,37,465
+Ventura County,California,6111,1843.13,4,4359,156,632,31,12,6099,35,464
+Ventura County,California,6111,1843.13,5,4161,161,659,28,11,6117,26,462
+Ventura County,California,6111,1843.13,6,3963,143,620,26,13,6043,20,395
+Ventura County,California,6111,1843.13,7,3973,145,680,26,21,6045,26,450
+Ventura County,California,6111,1843.13,8,3972,131,658,28,10,6090,20,461
+Ventura County,California,6111,1843.13,9,3727,130,644,25,12,6334,25,489
+Ventura County,California,6111,1843.13,10,3709,122,651,11,11,6563,13,456
+Ventura County,California,6111,1843.13,11,3433,149,572,22,17,6667,18,470
+Ventura County,California,6111,1843.13,12,3248,117,606,23,12,6657,32,449
+Ventura County,California,6111,1843.13,13,3270,106,571,22,10,6416,19,458
+Ventura County,California,6111,1843.13,14,3034,106,509,21,10,6285,34,437
+Yolo County,California,6113,1014.69,0,1097,66,195,14,10,1141,6,149
+Yolo County,California,6113,1014.69,1,1031,52,222,9,3,1133,12,130
+Yolo County,California,6113,1014.69,2,950,50,189,13,6,1051,6,149
+Yolo County,California,6113,1014.69,3,970,61,184,19,7,1119,4,142
+Yolo County,California,6113,1014.69,4,959,65,211,7,6,1101,9,145
+Yolo County,California,6113,1014.69,5,955,56,191,15,16,1121,5,124
+Yolo County,California,6113,1014.69,6,861,42,195,12,12,1114,6,140
+Yolo County,California,6113,1014.69,7,902,63,215,14,10,1071,13,131
+Yolo County,California,6113,1014.69,8,884,67,196,13,8,1155,9,163
+Yolo County,California,6113,1014.69,9,891,61,219,5,11,1118,8,143
+Yolo County,California,6113,1014.69,10,927,54,201,12,10,1206,5,137
+Yolo County,California,6113,1014.69,11,926,58,223,14,10,1248,7,167
+Yolo County,California,6113,1014.69,12,876,60,193,9,11,1149,9,162
+Yolo County,California,6113,1014.69,13,855,55,207,14,10,1162,7,171
+Yolo County,California,6113,1014.69,14,812,48,202,8,11,1168,8,165
+Yuba County,California,6115,631.84,0,501,32,88,19,9,390,0,75
+Yuba County,California,6115,631.84,1,519,27,88,14,9,376,2,57
+Yuba County,California,6115,631.84,2,508,38,92,21,1,371,3,77
+Yuba County,California,6115,631.84,3,511,34,71,12,9,394,2,67
+Yuba County,California,6115,631.84,4,507,31,72,13,7,422,1,77
+Yuba County,California,6115,631.84,5,502,31,76,28,8,430,5,70
+Yuba County,California,6115,631.84,6,472,33,87,20,3,419,3,69
+Yuba County,California,6115,631.84,7,566,35,81,22,6,421,3,86
+Yuba County,California,6115,631.84,8,527,42,84,17,5,408,3,85
+Yuba County,California,6115,631.84,9,535,34,79,19,2,461,0,95
+Yuba County,California,6115,631.84,10,569,37,82,19,8,420,0,100
+Yuba County,California,6115,631.84,11,552,40,71,20,5,452,3,103
+Yuba County,California,6115,631.84,12,570,29,80,13,3,455,2,91
+Yuba County,California,6115,631.84,13,553,32,85,20,4,503,0,88
+Yuba County,California,6115,631.84,14,553,29,78,13,1,439,2,93
